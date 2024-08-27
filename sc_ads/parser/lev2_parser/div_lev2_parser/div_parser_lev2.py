@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 while True:
 
-    directory_path = os.path.join(dir_main, r'archieved_files/lev1_parsed_ads/div_lev1_parsed_ads')
+    directory_path = os.path.join(dir_main, 'archieved_files/lev1_parsed_ads/div_lev1_parsed_ads')
     # لیست تمام فایل‌ها و پوشه‌ها در مسیر مشخص‌شده
     all_files_and_dirs = os.listdir(directory_path)
 
@@ -33,7 +33,7 @@ while True:
     for token in all_files:
 
         try:
-            exist_tok_directory = os.path.join(dir_main, r'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')
+            exist_tok_directory = os.path.join(dir_main, 'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')
             exist_tok = os.path.join(exist_tok_directory, f'cc_{token}')
             if os.path.isfile(exist_tok):
                 continue
@@ -43,7 +43,7 @@ while True:
 
             p_clean_sec(data)
             
-            directory = os.path.join(dir_main, r'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')    
+            directory = os.path.join(dir_main, 'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')    
             careful_cleaned_file_name = os.path.join(directory, f'cc_{token}')
 
             with open(careful_cleaned_file_name, 'w', encoding='utf-8') as file:

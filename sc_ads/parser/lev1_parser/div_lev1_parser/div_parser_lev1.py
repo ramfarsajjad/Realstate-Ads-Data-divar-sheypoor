@@ -35,7 +35,7 @@ while True:
     for token in tokcell:
 
         try:
-            exist_tok_directory = os.path.join(dir_main, r'archieved_files/scraped_ads/div_scraped_ads')
+            exist_tok_directory = os.path.join(dir_main, 'archieved_files/scraped_ads/div_scraped_ads')
             exist_tok = os.path.join(exist_tok_directory, f'check_{token}.json')
             if os.path.isfile(exist_tok):
                 continue
@@ -43,8 +43,8 @@ while True:
             token.split(',')
             address = 'https://api.divar.ir/v8/posts-v2/web/'
 
-            # url = f"{address}{token}"
-            url = 'https://api.divar.ir/v8/posts-v2/web/gZ3WGNlB'
+            url = f"{address}{token}"
+            # url = 'https://api.divar.ir/v8/posts-v2/web/gZ3WGNlB'
 
             response = requests.get(url)
 
@@ -56,7 +56,7 @@ while True:
                 jdata = json.dumps(data, ensure_ascii=False)
 
 
-                check_directory = os.path.join(dir_main, r'archieved_files/scraped_ads/div_scraped_ads')
+                check_directory = os.path.join(dir_main, 'archieved_files/scraped_ads/div_scraped_ads')
                 check_file_name = os.path.join(check_directory, f'check_{token}.json')
 
                 f = open(check_file_name, "w", encoding='utf-8')
@@ -93,7 +93,7 @@ while True:
                 section_cleaner(data['sections'], 'IMAGE')
 
 
-                directory = os.path.join(dir_main, r'archieved_files\lev1_parsed_ads\div_lev1_parsed_ads')
+                directory = os.path.join(dir_main, 'archieved_files/lev1_parsed_ads/div_lev1_parsed_ads')
                 cleaned_file_name = os.path.join(directory, f'{token}.json')
 
                 with open(cleaned_file_name, 'w', encoding='utf-8') as file:

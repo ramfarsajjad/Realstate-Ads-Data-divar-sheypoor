@@ -33,7 +33,7 @@ while True:
             # تبدیل داده‌های دریافتی به فرمت JSON
             data = response.json()
             
-            api_directoir = os.path.join(dir_main, r'archieved_files\api_firstpage\syp_api_firstpage')
+            api_directoir = os.path.join(dir_main, 'archieved_files/api_firstpage/syp_api_firstpage')
             all_api_files_and_dirs = os.listdir(api_directoir)
             all_api_files = [f for f in all_api_files_and_dirs if os.path.isfile(os.path.join(api_directoir, f))]
 

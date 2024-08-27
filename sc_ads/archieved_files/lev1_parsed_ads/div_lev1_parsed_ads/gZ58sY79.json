@@ -1,0 +1,80 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/UWx3K9lQJAhYIdx4HO01QA/75c9d8d7-32a7-42e1-92bf-e84981fff0ff.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "حسینی",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/BMGxGsNe_NsGF-k7Rzy3WQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_541313",
+                                "slug": "agent_DQxan9VM"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZ58sY79",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "۱۹۸متر زمین ویلایی آب و برق دار گرمابسرد دماوند|فروش زمین و کلنگی|دماوند|دیوار",
+        "description": "۱۹۸متر زمین ویلایی آب و برق دار گرمابسرد دماوند|فروش زمین و کلنگی|دماوند|خرید و فروش ***هوالرزاق***\n\nبا سلام \n\n❇️❇️خرید متفاوت و زیر قیمت در گرمابسرد❇️❇️\n\n✳️✳️گرمابسرد  دشت اول املاک آسمان ✳️✳️\n\n\n1️⃣دارای بنجاق و نقشه urm \n\n\n2️⃣نزدیک به انشعابت و آمده پیاده سازی \n\n3️⃣منطقه ای دنج و آرام و اطراف ساخت و ساز شده \n\n4️⃣فروش به صورت اقساط بدون بهره \n\n\n5️⃣آماده برای ساخت و ساز \n\n6️⃣بهترین و مطمئن تزین منطقه برای سرمایه گذاری \n\n7️⃣معاوضه با خودرو و موتور \n\nآدرس :دماوند/گیلاوند/جابان/بعد از پل هوایی سوم /خروجی به سمت گرمابسرد /دشت اول املاک آسمان| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "۱۹۸متر زمین ویلایی آب و برق دار گرمابسرد دماوند",
+            "city_persian": "دماوند",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "05-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "damavand"
+    },
+    "details": {
+        "business_ref": "agent_541313",
+        "business_type": "real-estate-business",
+        "category": "plot-old",
+        "city": "damavand",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 459000000,
+        "rent": 0,
+        "token": "gZ58sY79"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "sections": [
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک ارک",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/HBSmyVnZD_yRb2t-sGHFcQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "12594",
+                                "slug": "O9uAgUVu"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۶۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZ8K8FTB",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت اجاره آپارتمان ۱۶۰ متری ۲ خواب فول امکانات در تبریز - امروز",
+        "description": "160 متر اپارتمان در سفیر امید|اجارهٔ آپارتمان|تبریز|خرید و فروش جنوبی\nکمد و کابینت ام دی اف\nنقاشی و کاغذ دیواری \nبالاتر از منظریه \nمنظریه پشت اتش نشانی نبش کوچه معلم 2 املاک ارک| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "160 متر اپارتمان در سفیر امید",
+            "city_persian": "تبریز",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "14-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tabriz"
+    },
+    "details": {
+        "business_ref": "12594",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tabriz",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 17000000,
+        "token": "gZ8K8FTB"
+    }
+}

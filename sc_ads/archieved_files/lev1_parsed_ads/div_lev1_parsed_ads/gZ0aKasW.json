@@ -1,0 +1,195 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/80a783ad-9215-43de-9838-27e62e620fb9.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/80a783ad-9215-43de-9838-27e62e620fb9.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/eGjHhOPR587tbjJpQBzRrw/4CDD8844-5470-41BA-913C-0BD88F5DE8CF.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/0gXRdgEK9LejYQlyEl2Aww/99F61001-7EA7-4DD3-A0FF-CC632F162CDC.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/GSeF1nDF4Ac-9DaxOd7bHg/5D47ACF8-4FF5-436A-A1B6-BD809675E9F9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/1Xw9dyReJVIHJP9cOOLqlw/4D5F8F54-419B-4059-A04C-B31CEA869673.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/uNcw6U3Kz75AbvU5Wo1YfQ/43C73555-F4CC-4AE8-9F4A-C967BC194464.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "مهدی رضایی",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/vBgZ5cv-rZZJKko5XxFkxw.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_307352",
+                                "slug": "agent_MH8zr83y"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۷۶"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZ0aKasW",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت خرید آپارتمان ۷۶ متری ۲ خواب فول امکانات در شهریار - امروز",
+        "description": "۷۵ متر لوکیشن تاپ شهریار فردوسیه|فروش آپارتمان|شهریار|خرید و فروش 75متر\nمسکن سرپناه\n\nبرای دیدن واحدهای سندار و مشاهده دیگر فایل ها و آگهی ها لطفا به انتهای همین آگهی مراجعه فرمایید .. و قسمت\n\n……همه آگهی ها و اطلاعات مشاور……\n\nرا کلیک فرمایید\n\nبا سلام و احترام\n\nببینید چی آوردم\nاگر یه واحد تو این لوکیشن و با این متراژ بخواهید پیدا کنید حتما باید برید پیش دعانویس\nاما ما آوردیم براتون\n\n\nپارکینگ اختصاصی آسانسور انباری بالکن رو به نما\n\nآدرس دفتر\nشهریار .. شهرک فردوسیه ..   \n\n                 خیابان ۱۵ خرداد .. \n       خیابان مطهری شمالی .. \nجنب فضای سبز .. \n\n……………املاک سرپناه…………..\n \nرضایی***********                                       \n\n          دفتر***********                     \n\nاحمدی***********\n\nباافتخار هستیم در خدمتتون| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "۷۵ متر لوکیشن تاپ شهریار فردوسیه",
+            "city_persian": "شهریار",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "08-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "shahriar-city"
+    },
+    "details": {
+        "business_ref": "agent_307352",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "shahriar-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 5,
+        "price": 1750000000,
+        "rent": 0,
+        "token": "gZ0aKasW"
+    }
+}

@@ -63,8 +63,8 @@ while True:
             # تبدیل داده‌های دریافتی به فرمت JSON
             data = response.json()
             # چاپ داده‌ها
-            # pprint(data)
-            api_dir = os.path.join(dir_main, r'archieved_files\api_firstpage\div_api_firstpage')
+            # pprint(data)/home/sjd/Desktop/Realstate-Ads-Data-divar-sheypoor-/sc_ads/
+            api_dir = os.path.join(dir_main, "archieved_files/api_firstpage/div_api_firstpage")
             all_api_files_and_dirs = os.listdir(api_dir)
             all_api_files = [f for f in all_api_files_and_dirs if os.path.isfile(os.path.join(api_dir, f))]
             api_name = os.path.join(api_dir, f"apidiv{len(all_api_files)}.json")

@@ -1,7 +1,7 @@
 import json
 import os
 import csv
-from flatten_dict import flatten 
+
 from div_decnum_pass import decnum
 from div_listdata_pass import listd_p
 import time
@@ -48,7 +48,7 @@ while True:
 
 
 
-    directory = os.path.join(dir_main, r'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')
+    directory = os.path.join(dir_main, 'archieved_files/lev2_parsed_ads/div_lev2_parsed_ads')
 
     # لیست تمام فایل‌ها و پوشه‌ها در مسیر مشخص‌شده
     all_files_and_dirs = os.listdir(directory)
@@ -126,7 +126,7 @@ while True:
             logger.info('ADD TO DIV CSV, SUCCESSFUL!')
 
         except:
-            logger.exception(f'CAN NOT  ADD {real_state['token']} TO DIV CSV!\nERORR:')
+            logger.exception(f'CAN NOT  ADD {real_state["token"]} TO DIV CSV!\nERORR:')
 
 
     time.sleep(90)

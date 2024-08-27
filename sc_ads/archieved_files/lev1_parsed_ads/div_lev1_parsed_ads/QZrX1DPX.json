@@ -1,0 +1,132 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/8OvGevstmtdcIhJOU-86rQ/16a36817-b150-47ec-9950-6e4816c70f1b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/7UXzac3tONX3wuuJFnuz9A/eb803db0-2e0a-481e-a5d5-f838ed24625d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/Xo8uDGZLRM3flhHUf_dBXg/595517f1-ce3c-4921-a67f-af28bfa88164.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/_yNAE3P0C4zTsnUYZoEjNA/53f42edd-75b7-4a7b-8838-e9f49836ae47.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/6ZzDGd3Vow5S2ms8mldY3Q/5da8091f-943b-487f-9496-390ca8e7371b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/UPI0s3HSWMZ7VeoahDdUJg/b1db909b-20a6-4544-9b30-ee941857ed00.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/hur2sLam39Zyzaqt7gYb_Q/64d0fb2d-f48b-4f88-8c1f-408c6440e769.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/_sdHoUWLx4coNWxR9g4Vow/e4e48067-871a-4380-8cb1-ee1267e0e55e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/P_wo9Oyijb81UG5i49X3nQ/4524ed4b-1f87-4882-b647-a414bb247d12.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 37.720120683824,
+                        "longitude": 48.981659592725
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۷۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "QZrX1DPX",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره روزانه ویلای ۷۰ متری ۱۲ نفره در اسالم - امروز",
+        "description": "ویلا اجاره ای در اسالم|اجارهٔ کوتاه مدت ویلا و باغ|اسالم|خرید و فروش اقامتگاه هانا (شهر اسالم)مالک هستم بدونه واسته رزو کنید\nنزدیک به تمام اماکن رفاعی(سوپرمارکت.قصابی.رستوران و کبابی ها.پمپ گاز.نانوایی.داروخانه)\nدارای آب شرب و بدونه قطعی\nبه افراد مجرد اجاره داده نمیشود\nفاصله تاساحل دریا و جاده اسالم به خلخال ۵ دقیقه\nفاصله تا جاده گیسوم ۱۰ دقیقه\nویلایی با دو اتاق خواب کولر دار\nحیات تقریبا بزرگ مشترک با خونه خودم \nدارای پارکینگ برای یک ماشین\nتمیز و مرتب هستش\nورود حیوانات خانگی به ویلا ممنوع میباشد\nدر صورت جواب ندادن تماس,با شما تماس میگیرم| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "ویلا اجاره ای در اسالم",
+            "city_persian": "اسالم",
+            "category_slug_persian": "اجارهٔ کوتاه مدت ویلا و باغ"
+        },
+        "register_date": "05-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "villa",
+        "city": "asalem"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "villa",
+        "city": "asalem",
+        "credit": 0,
+        "district": "",
+        "image_count": 9,
+        "price": 0,
+        "rent": 0,
+        "token": "QZrX1DPX"
+    }
+}

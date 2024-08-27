@@ -46,7 +46,7 @@ while True:
 
 
 
-    directory = os.path.join(dir_main, r'archieved_files/lev2_parsed_ads/syp_lev2_parsed_ads')
+    directory = os.path.join(dir_main, 'archieved_files/lev2_parsed_ads/syp_lev2_parsed_ads')
 
     # لیست تمام فایل‌ها و پوشه‌ها در مسیر مشخص‌شده
     all_files_and_dirs = os.listdir(directory)
@@ -135,6 +135,8 @@ while True:
                     word = data['main']['property'][decnum(data['main']['property'], 'سن بنا')]['سن بنا'].split()            
                     if word[0] == 'نوساز':
                         word[0] = 0
+                    elif word[0] == 'بیشتر':
+                        word[0] = 33
                     b_date = 1403 - int(word[0])
                     real_state['build_date'] = b_date
 
@@ -164,6 +166,6 @@ while True:
 
 
         except:
-            logger.exception(f'CAN NOT  ADD {real_state['token']} TO SHEYP CSV!\nERORR:')
+            logger.exception(f'CAN NOT  ADD {real_state["token"]} TO SHEYP CSV!\nERORR:')
 
     time.sleep(90)

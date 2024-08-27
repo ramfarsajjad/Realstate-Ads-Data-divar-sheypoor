@@ -1,0 +1,222 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Di7FBgN7YPJSGyJ7G2IOZA/ec7a7250-a106-4e49-a97c-7b21844670fc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/zyMDpbGcp8iqU9QCaPFZyw/c22bf196-c16f-493d-aace-251ede1cf24d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/VlZHZzKKmKq0wwmpS3utYA/07a68ba6-2dc8-4e85-85c0-a910f0090b59.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Tir4JoB7SnbYlahudHEBdA/eda05f74-16e6-4c94-9f0c-74c4aa5b0625.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Kl1S3--yyD450fODAy50uQ/3520a002-17bf-4221-ad28-0feeebc49498.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 31.36176,
+                        "longitude": 48.713604
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "فیجانی/ املاک کاخ سبز",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/xQC063rLCmgyvIDgnF0pYQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_558281",
+                                "slug": "agent_9Lg2nFSO"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۱۲"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "تک‌برگ"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "شمالی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر گازی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش بخاری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم آبگرم‌کن"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "شمالی"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "تک‌برگ"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت خرید آپارتمان ۱۱۲ متری ۲ خواب فول امکانات در ملی راه اهواز - امروز",
+        "description": "موقعیت عالی_کلید اول _وام دار|فروش آپارتمان|اهواز، ملی راه|خرید و فروش گروه مشاورین املاک کاخ سبز \nخیابان حجت بین زاهد و زمرد \n\nعکسها متعلق به واحد می‌باشند \nکد ۲۹۲ :\n-پلان واحد تمیز و غرق در نور می‌باشد \n-واحد جلو و شیشه خور \n-اتاق خواب ها قابل چیدمان و کمد دار \n-یک خواب مستر \n-تراس سرتاسری و بزرگ \n-سرامیک هتلی و شیرآلات سرویس بهداشتیها برند می‌باشند.\n-موقعیت ملک دنج‌ \n- با دسترسی مناسب به زیتون و ملی راه \n\nقابلیت اخذ وام تا ۸۰۰ میلیون\nقابلیت رهن تا ۵۰۰ میلیون \nخرید با ۳ میلیارد \n\nجهت قیمت گذاری ملک خود و مشاوره رایگان و دریافت فایل مشابه با ما تماس بگیرید .\nمشاور شما : فیجانی‌☘️| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "موقعیت عالی_کلید اول _وام دار",
+            "district_persian": "ملی راه",
+            "city_persian": "اهواز",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "08-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "ahvaz"
+    },
+    "details": {
+        "business_ref": "agent_558281",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "ahvaz",
+        "credit": 0,
+        "district": "mellirah",
+        "image_count": 5,
+        "price": 4280000000,
+        "rent": 0,
+        "token": "gZze5D6A"
+    }
+}

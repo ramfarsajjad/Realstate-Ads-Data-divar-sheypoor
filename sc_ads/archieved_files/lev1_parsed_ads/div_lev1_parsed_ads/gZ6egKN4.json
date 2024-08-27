@@ -1,0 +1,227 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/97dcea79-ab7b-461e-8073-59787adc4656.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/97dcea79-ab7b-461e-8073-59787adc4656.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/h_1E1Hn0CuxBdscwIqsZBw/75524a18-e865-4bd6-8f40-1850b7b7b073.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/eeeIaF7PJEK1xvjvHSEaMw/59799e27-0e5c-4a53-951b-ec5e1b7f1e5d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/na6Ay0ojmgzxLPaSBNjfaw/fa421bed-2c54-4312-a730-b34a0e990be9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/48LNkg3CDmQOaPXTxh96hw/28c20a2d-4443-458f-aa92-569979367cdf.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/_OTwSyYv5qs9aYfYMqtEKA/05f109b3-4e2f-44e5-bcd4-768ee213b58c.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 29.727041,
+                        "longitude": 52.43465
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "الهیه غرب",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "30680",
+                                "slug": "kvEGxtlZ"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۵۲"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۴"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۱"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "تک‌برگ"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "غربی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف پارکت چوب"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "غربی"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "تک‌برگ"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۱"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت خرید آپارتمان ۱۵۲ متری ۳ خواب فول امکانات در شهرک شهید بهشتی شیراز - امروز",
+        "description": "اپارتمان_3خواب_دو کله|فروش آپارتمان|شیراز، شهرک شهید بهشتی|خرید و فروش ✴️املاک الهیه غرب✴️\n\n✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\n⚜️تاپ لوکیشن \n\n⚜️دسترسی اسان وسریع\n\n⚜️کوچه عریض \n\n⚜️ساختمان 2طبقه\n\n⚜️طبقه دوم \n\n⚜️سالن بزرگ نور گیر\n\n⚜️اتاقها بزرگ و بدون پرتی \n\n⚜️اشپزخانه کابینت خور عالی\n\n⚜️نور گیر شرقی غربی \n\n⚜️بدون مشرفیت\n\n⚜️تمام اطلاعات واقعی واقعی \n\n✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\n  مشاور تخصصی خرید و فروش.mr.sori✅| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "اپارتمان_3خواب_دو کله",
+            "district_persian": "شهرک شهید بهشتی",
+            "city_persian": "شیراز",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "12-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "shiraz"
+    },
+    "details": {
+        "business_ref": "30680",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "shiraz",
+        "credit": 0,
+        "district": "shahrakebeheshti",
+        "image_count": 5,
+        "price": 5699999744,
+        "rent": 0,
+        "token": "gZ6egKN4"
+    }
+}
