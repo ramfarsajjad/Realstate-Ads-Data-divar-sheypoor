@@ -1,0 +1,221 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/gK63Aw4n-7lgJ0x8dbKkUA/08613318-9022-4948-b385-d1f7a8645d64.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/GOimNl1SXA0i2nwvjyoRUw/104f6d84-81b1-4133-9bef-1197eeaa866f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/fpd5vgAReIGscM6Pm_useQ/6e3c1a03-1757-4e1a-b558-ffddeaca1677.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mZYYw30MBPRPCSLphdvjrg/f74cf309-3c1d-4275-9b28-d12dd8fbcbc0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/qYkJ-ESM2pZdWr_0IUthvg/f3b96bb5-0787-4df3-9006-0c648ea4f3c9.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.824535,
+                        "longitude": 50.927116
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک کارو",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/buC7LnMKl8Gltyi1nB0eKg.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "39876",
+                                "slug": "FImtVnjK"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "شمالی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی شده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم موتورخانه"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی شده"
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "شمالی"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت اجاره آپارتمان ۱۰۸ متری ۲ خواب در گلشهر کرج - امروز",
+        "description": "اجاره واحد ۱۰۸ متر سندی پارکینگ سندی آفتابگیر|اجارهٔ آپارتمان|کرج، گلشهر|خرید و فروش ⭐️مشاورین املاک و مستغلات کارو⭐️\n\n⭐️انتخابی بهتر با مشاورین برتر⭐️\n.\n.\nاطلاعات ملک\n.\n✅️دسترسی عالی.به مترو، مراکزخرید، اتوبان \n\n✅️در خیابانی عریض و آرام \n\n✅️ساختمان دوکله \n\n✅️سندی متراژ واقعی بدون پرتی \n\n✅️برای اطلاعات بیشتر تماس بگیرید \n.\nبرای دریافت فایل های مشابه تماس بگیرید\nکارشناس امور ملکی :خانم مرادی \nلوکیشن متعلق به املاک می‌باشد\n««««««««««««»»»»»»»»»»\nاملاک کارو با دو شعبه فعال در استان البرز\nشعبه یک : گلشهر بهارغربی(شایسته)\nشعبه دوم: گلشهر گلزار غربی خیابان اختر غربی✅| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "اجاره واحد ۱۰۸ متر سندی پارکینگ سندی آفتابگیر",
+            "district_persian": "گلشهر",
+            "city_persian": "کرج",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "27-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "karaj"
+    },
+    "details": {
+        "business_ref": "39876",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "karaj",
+        "credit": 350000000,
+        "district": "golshahr",
+        "image_count": 5,
+        "price": 0,
+        "rent": 5500000,
+        "token": "gZNzZcHl"
+    }
+}

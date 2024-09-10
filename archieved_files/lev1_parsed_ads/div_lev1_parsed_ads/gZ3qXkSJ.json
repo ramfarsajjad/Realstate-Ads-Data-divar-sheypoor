@@ -1,0 +1,132 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/YCuDV7bODxjveVtjTvvxyw/e56d424b-8623-4091-a396-790a8f44eb94.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/2-pR_9NpyIkpqEvkltKQRA/6839aa32-c0ae-45f2-8fbb-01b777faaf44.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/JSggDObT4Q17tUtXalun_g/5817cb38-c06a-40eb-8b55-ddb8446c7b40.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/SdJnOd0L_O3OC18N7kXcqA/c8b60785-c29b-4fbf-95cc-18e0538f4ea2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RvzSs2uytZV_whayQHCODg/ac9d1572-a256-405f-b835-9c82ba56af13.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک ارک",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/HBSmyVnZD_yRb2t-sGHFcQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "12594",
+                                "slug": "O9uAgUVu"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۴۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۹"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری ندارد"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZ3qXkSJ",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت اجاره آپارتمان ۱۴۰ متری ۲ خواب در تبریز - ۵ شهریور ۱۴۰۳",
+        "description": "140متر جنوبی طبقه بالای همکف حیاط در منظریه|اجارهٔ آپارتمان|تبریز|خرید و فروش 9 میلیون اجاره بدون پارکینگ\nتمییز و بازسازی شده \nکلا 2 طبقه\nکمد و کابینت ام دی اف \nنقاشی و کاغذ دیواری و کولر ابی \nمنظریه پشت اتش نشانی نبش کوچه معلم 2 املاک ارک| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "140متر جنوبی طبقه بالای همکف حیاط در منظریه",
+            "city_persian": "تبریز",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "10-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tabriz"
+    },
+    "details": {
+        "business_ref": "12594",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tabriz",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 5,
+        "price": 0,
+        "rent": 9000000,
+        "token": "gZ3qXkSJ"
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/w46EHnJ15kK5gr37MgL5JQ/8b7f4226-cda7-4344-a391-0b43ea8c50cc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/LhVKR0Nv-ivwy4Dijo7Bgw/d1a05d42-1a9d-4162-baf9-1916ab4387dd.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/IUf9YVN_C2NuCIEdGKtQYQ/e787709d-fbf5-4064-bd5b-659993c321d0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/BdqQmK2mBPiWH8dVL580kg/c3ee72d4-d7c9-4f68-8776-0a285333fe27.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RQqiq1hR1sdQZ2r1a6IPRQ/4a6392c5-a82e-4820-b2a5-1dfa5dae8891.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.731514,
+                        "longitude": 51.292744
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک برج",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/OhIE0OOr1buv2CiEC0LBmQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "294",
+                                "slug": "pBT3vRSS"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۹۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۴"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۴"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "شمالی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی شده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سنگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی شده"
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "شمالی"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۴"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "قیمت اجاره آپارتمان ۹۰ متری ۲ خواب فول امکانات در ارم تهران - ۱ شهریور ۱۴۰۳",
+        "description": "۹۰ متر فول دو خواب  فردوس غرب بهار شمالی|اجارهٔ آپارتمان|تهران، ارم|خرید و فروش ⭕  فردوس غرب بهار شمالی   ⭕\n\n✅بهترین لوکیشن، دسترسی عالی به حکیم \n✅فول امکانات (آسانسور پارکینگ و انباری)\n✅اماده تخلیه (آخر ماه)\n✅طبقه چهارم \n✅کابینت mdf، کف‌‌سرامیک، گاز رومیزی\n✅نما: سنگ \n✅واحد اماده تخلیه میباشد.\n️قابل تبدیل‌به اجاره کمتر \nقابل تبدیل به ۵۰۰ م ماهی ۱۸\nعکسها متعلق به خود ملک ( نمیباشد )\n\n✍کد آگهی: ۴۸۴۰\nمشاور شما: \nحسام حسینی| سایت ثبت آگهی، نیازمندی و خرید و فروش دیوار",
+        "web_info": {
+            "title": "۹۰ متر فول دو خواب  فردوس غرب بهار شمالی",
+            "district_persian": "ارم",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "06-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "294",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tehran",
+        "credit": 400000000,
+        "district": "eram",
+        "image_count": 5,
+        "price": 0,
+        "rent": 19000000,
+        "token": "gZxqMP0_"
+    }
+}
