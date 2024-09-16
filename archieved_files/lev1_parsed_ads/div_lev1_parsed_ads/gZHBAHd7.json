@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/KLZFZF1VBcZRWbsK-ZWN9Q/0d76973d-0cb1-4fb0-87bd-d2bdf4b60e3e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/jXCEtLVwbJNFdUIdoY30lg/d7171de4-8227-42ea-ab64-ff340a8ea4ee.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/tqLFYEyF65ZkbVz5HEibXQ/bf35950f-b32d-4eda-968f-2a4ac1e139ab.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.4961,
+                        "longitude": 52.33201
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "حسینی",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/aMqAxReRLBojwWd7kbBICw.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_329762",
+                                "slug": "agent_R3a3sG5v"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZHBAHd7",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش ۳۸۰متر زمین ویلایی _دشت دوم_گرمابسرد دماوند در دماوند - ۲۶ شهریور ۱۴۰۳",
+        "description": "آگهی ۳۸۰متر زمین ویلایی _دشت دوم_گرمابسرد دماوند در دیوار دماوند",
+        "web_info": {
+            "title": "۳۸۰متر زمین ویلایی _دشت دوم_گرمابسرد دماوند",
+            "city_persian": "دماوند",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "damavand"
+    },
+    "details": {
+        "business_ref": "agent_329762",
+        "business_type": "real-estate-business",
+        "category": "plot-old",
+        "city": "damavand",
+        "credit": 0,
+        "district": "",
+        "image_count": 3,
+        "price": 800000000,
+        "rent": 0,
+        "token": "gZHBAHd7"
+    },
+    "sc_time": 1726491157.1375608
+}

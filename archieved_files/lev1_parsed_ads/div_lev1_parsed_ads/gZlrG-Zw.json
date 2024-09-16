@@ -1,0 +1,101 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 33.49532,
+                        "longitude": 48.358757
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "خونه به خونه",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "13877",
+                                "slug": "VhcOLjiE"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۲۰۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش ساختمان ویلایی ۲۲۵متری واقع در افلاک ۹ در خرم‌آباد - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی ساختمان ویلایی ۲۲۵متری واقع در افلاک ۹ در دیوار خرم‌آباد",
+        "web_info": {
+            "title": "ساختمان ویلایی ۲۲۵متری واقع در افلاک ۹",
+            "city_persian": "خرم‌آباد",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "khorramabad"
+    },
+    "details": {
+        "business_ref": "13877",
+        "business_type": "real-estate-business",
+        "category": "house-villa-sell",
+        "city": "khorramabad",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 6099999744,
+        "rent": 0,
+        "token": "gZlrG-Zw"
+    }
+}

@@ -11,29 +11,25 @@ from div_cleaning_section import listdata_basic_clean
 from div_record_date import rec_date
 import time
 import logging
+from setup_log import setup_logger
 
-dir_main = os.path.dirname(os.path.abspath(__name__))
-
-dir_log = os.path.join(dir_main, 'logs')
-log_file = os.path.join(dir_log, 'div_parser_lev1_log.log')
-logging.basicConfig(
-    level=logging.INFO,  # تنظیم سطح لاگ (می‌توانید به دلخواه تغییر دهید)
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(log_file), logging.StreamHandler()]  # ذخیره لاگ در فایل و نمایش در کنسول
-)
-
-logger = logging.getLogger(__name__)
+    
 
 
-
-tok_dir_file = os.path.join(dir_main, 'scraper')
-TokFile = os.path.join(tok_dir_file, 'div_tokbase.json')
-with open(TokFile, 'r') as file:
-    tokcell = json.load(file)
 
 # URL API
 def div_parser1(token):
 
+    dir_main = os.path.dirname(os.path.abspath(__name__))
+    dir_log = os.path.join(dir_main, 'logs')
+    log_file = os.path.join(dir_log, 'div_parser_lev1.log')
+
+    if 'logger_div_pars1' in logging.Logger.manager.loggerDict:
+        logger = logging.getLogger('logger_div_pars1')
+    else:
+        logger = setup_logger(log_file, 'logger_div_pars1')
+
+    
     try:
         
         address = 'https://api.divar.ir/v8/posts-v2/web/'
@@ -76,6 +72,7 @@ def div_parser1(token):
 
             data['category'] = data.pop('category', None)
             data['details'] = data.pop('webengage', None)
+            data['sc_time'] = time.time()
 
             section_basic_clean(data['sections'])
             listdata_basic_clean(data['sections'])

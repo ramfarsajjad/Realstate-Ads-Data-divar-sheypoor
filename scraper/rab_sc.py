@@ -5,7 +5,7 @@ import os
 import subprocess
 import time
 from fun_div_sc import div_sc
-from fun_syp_sc import syp_dc
+from fun_syp_sc import syp_sc
 
 def scrape_data(base):
 
@@ -22,7 +22,7 @@ def scrape_data(base):
         div_BufTok.update(tokcell)
 
     elif base == "syp":
-        syp_dc()
+        syp_sc()
         TokFile = os.path.join(TokDir,'syp_tokbase.json')
         with open(TokFile, 'r') as file:
             tokcell = json.load(file)
@@ -42,8 +42,12 @@ def send_scraped_data(data, src):
     connection = pika.BlockingConnection(pika.ConnectionParameters('localhost', credentials=credentials))
     channel = connection.channel()
 
+    # channel.queue_delete(queue='div_token')
+    # channel.queue_delete(queue='syp_token')
+    
     channel.queue_declare(queue='div_token')
     channel.queue_declare(queue='syp_token')
+
 
     if src == "div":
         for item in data:
@@ -58,8 +62,22 @@ def send_scraped_data(data, src):
     connection.close()
 
 if __name__ == "__main__":
-    div_BufTok = set()
-    syp_BufTok = set()
+
+    dir_main = os.path.dirname(os.path.abspath(__name__))
+    TokDir = os.path.join(dir_main, 'scraper')
+    
+    TokFile = os.path.join(TokDir,'div_tokbase.json')
+    with open(TokFile, 'r') as file:
+        div_BufTok = json.load(file)
+    div_BufTok = set(div_BufTok)
+
+    TokFile = os.path.join(TokDir,'syp_tokbase.json')
+    with open(TokFile, 'r') as file:
+        syp_BufTok = json.load(file)
+    syp_BufTok = set(syp_BufTok)
+
+    # div_BufTok = set()
+    # syp_BufTok = set()
     
     while(True):
         div_data = scrape_data("div")
@@ -69,4 +87,4 @@ if __name__ == "__main__":
         if syp_data:
             send_scraped_data(syp_data, "syp")
 
-        time.sleep(10)
+        time.sleep(5)

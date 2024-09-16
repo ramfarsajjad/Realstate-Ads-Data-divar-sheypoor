@@ -6,29 +6,22 @@ import os
 from syp_safe_clean import data_cleaner
 import time
 import logging
-
-dir_main = os.path.dirname(os.path.abspath(__name__))
-
-dir_log = os.path.join(dir_main, 'logs')
-log_file = os.path.join(dir_log, 'syp_parser_lev1_log.log')
-logging.basicConfig(
-    level=logging.INFO,  # تنظیم سطح لاگ (می‌توانید به دلخواه تغییر دهید)
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(log_file), logging.StreamHandler()]  # ذخیره لاگ در فایل و نمایش در کنسول
-)
-
-logger = logging.getLogger(__name__)
-
+from setup_log import setup_logger
 
     
 
-tok_dir_file = os.path.join(dir_main, 'scraper')
-TokFile = os.path.join(tok_dir_file, 'syp_tokbase.json')
-with open(TokFile, 'r') as file:
-    tokcell = json.load(file)
-
-    # URL API
 def syp_parser1(token):
+
+    dir_main = os.path.dirname(os.path.abspath(__name__))
+
+    dir_log = os.path.join(dir_main, 'logs')
+    log_file = os.path.join(dir_log, 'syp_parser_lev1.log')
+
+    if 'logger_syp_pars1' in logging.Logger.manager.loggerDict:
+        logger = logging.getLogger('logger_syp_pars1')
+    else:
+        logger = setup_logger(log_file, 'logger_syp_pars1')
+
     try:     
         address = 'https://www.sheypoor.com/api/v10.0.0/listings/'
         url = f"{address}{token}"
@@ -66,6 +59,7 @@ def syp_parser1(token):
             data['seo'] = data['meta'].pop('seo')
             data.pop('meta')
             data['main'] = data.pop('data')
+            data['sc_time'] = time.time()
             # data_cleaner(data)
 
 

@@ -1,6 +1,7 @@
 import pika
 from fun_syp_parser_lev1 import syp_parser1
 import json
+import threading
 
 def parse_data(data):
     # اینجا داده‌ها پارس می‌شوند
@@ -44,5 +45,16 @@ def start_parsing():
     print('Waiting for scraped data to parse...')
     channel.start_consuming()
 
+
+def start_multiple_consumers(consumer_count):
+    threads = []
+    for _ in range(consumer_count):
+        t = threading.Thread(target=start_parsing)
+        t.start()
+        threads.append(t)
+    
+    for thread in threads:
+        thread.join()
+
 if __name__ == "__main__":
-    start_parsing()
+    start_multiple_consumers(consumer_count=3)

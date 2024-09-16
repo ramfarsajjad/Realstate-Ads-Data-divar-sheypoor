@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.692772,
+                        "longitude": 51.484917
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "علی محمودی",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/WmK6T5T7oZtbv7ggi5CaeA.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_382038",
+                                "slug": "agent_zicTHHOS"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۲۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۹"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۲۵ متر + ۶ متر بالکن (بر کریمشاهیان) در تهران - ۲۱ شهریور ۱۴۰۳",
+        "description": "آگهی ۲۵ متر + ۶ متر بالکن (بر کریمشاهیان) در دیوار تهران",
+        "web_info": {
+            "title": "۲۵ متر + ۶ متر بالکن (بر کریمشاهیان)",
+            "district_persian": "پیروزی",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "12-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "agent_382038",
+        "business_type": "real-estate-business",
+        "category": "shop-rent",
+        "city": "tehran",
+        "credit": 200000000,
+        "district": "pirouzi",
+        "image_count": 0,
+        "price": 0,
+        "rent": 20000000,
+        "token": "gZhPFCtM"
+    }
+}

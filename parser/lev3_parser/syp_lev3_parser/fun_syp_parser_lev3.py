@@ -7,28 +7,30 @@ import time
 import logging
 import psycopg2
 from psycopg2 import sql
-
-
-dir_main = os.path.dirname(os.path.abspath(__name__))
-
-dir_log = os.path.join(dir_main, 'logs')
-log_file = os.path.join(dir_log, 'syp_saver_log.log')
-logging.basicConfig(
-    level=logging.INFO,  # تنظیم سطح لاگ (می‌توانید به دلخواه تغییر دهید)
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(log_file), logging.StreamHandler()]  # ذخیره لاگ در فایل و نمایش در کنسول
-)
-
-logger = logging.getLogger(__name__)
+import datetime
+from setup_log import setup_logger
 
 
 
 def syp_parser3(data):
+
+    dir_main = os.path.dirname(os.path.abspath(__name__))
+
+    dir_log = os.path.join(dir_main, 'logs')
+    log_file = os.path.join(dir_log, 'syp_parser_lev3.log')
+
+    if 'logger_syp_pars3' in logging.Logger.manager.loggerDict:
+        logger = logging.getLogger('logger_syp_pars3')
+    else:
+        logger = setup_logger(log_file, 'logger_syp_pars3')
+    
+
     try:
         data = json.loads(data)                
         real_state = {
             "source" : 'sheypoor',
             "token" : data["main"]["id"],
+            "sc_time" : data['sc_time'],
             "title" : data["seo"]["title"],
             "rent_sell" :'',
             "apartment_house" : '',
@@ -117,6 +119,18 @@ def syp_parser3(data):
 
         if not decnum(data['main']['property'], 'انباری') == None:
             real_state['storage'] = data['main']['property'][decnum(data['main']['property'], 'انباری')]['انباری']
+
+        if "timePassedLabel" in data['main']:
+                word = data['main']['timePassedLabel'].split()
+                if len(word) == 2:
+                    current_date = datetime.date.today()
+                elif len(word) == 3:
+                    if word[1] == "روز":
+                        current_date = datetime.date.today() - datetime.timedelta(days=int(word[0]))
+                    elif word [1] == "هفته":
+                        current_date = datetime.date.today() - datetime.timedelta(days=int(word[0]) * 7)
+                
+                real_state['register_data'] = f"{current_date.day}-{current_date.month}-{current_date.year}"
 
         real_state['image'] = str(real_state['image'])
         real_state['location'] = str(real_state['location'])

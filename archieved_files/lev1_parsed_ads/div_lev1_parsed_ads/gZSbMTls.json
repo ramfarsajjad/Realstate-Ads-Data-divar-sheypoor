@@ -1,0 +1,100 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.71062,
+                        "longitude": 54.488743
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سعید بالارستاقی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_394929",
+                                "slug": "agent_AgYr1wWF"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۷"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ویلایی ۸۰ متر دربست برای انبار در گرگانجدید در گرگان - ۲۶ شهریور ۱۴۰۳",
+        "description": "آگهی ویلایی ۸۰ متر دربست برای انبار در گرگانجدید در دیوار گرگان",
+        "web_info": {
+            "title": "ویلایی ۸۰ متر دربست برای انبار در گرگانجدید",
+            "city_persian": "گرگان",
+            "category_slug_persian": "اجارهٔ خانه و ویلا"
+        },
+        "register_date": "01-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "house-villa-rent",
+        "city": "gorgan"
+    },
+    "details": {
+        "business_ref": "agent_394929",
+        "business_type": "real-estate-business",
+        "category": "house-villa-rent",
+        "city": "gorgan",
+        "credit": 30000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 4500000,
+        "token": "gZSbMTls"
+    }
+}

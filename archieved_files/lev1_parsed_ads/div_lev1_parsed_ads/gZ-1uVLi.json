@@ -1,0 +1,124 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/p69PYmo4bJn4-n-yQpLvAg/ea916ce6-70a8-4119-a138-39df90562783.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.46938,
+                        "longitude": 50.94831
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "محمدی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_512245",
+                                "slug": "agent_cOenMnGV"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZ-1uVLi",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش ۸۷متر فاز۳(قرارگاه امام حسن) در پرند - ۲۰ شهریور ۱۴۰۳",
+        "description": "آگهی ۸۷متر فاز۳(قرارگاه امام حسن) در دیوار پرند",
+        "web_info": {
+            "title": "۸۷متر فاز۳(قرارگاه امام حسن)",
+            "city_persian": "پرند",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "27-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "parand-city"
+    },
+    "details": {
+        "business_ref": "agent_512245",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "parand-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 845000000,
+        "rent": 0,
+        "token": "gZ-1uVLi"
+    }
+}

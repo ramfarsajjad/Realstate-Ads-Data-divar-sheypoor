@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 37.079967,
+                        "longitude": 57.512165
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "آبادگران",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/MxEWjJ0SYHeLx4SBJLUPdw.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "25214",
+                                "slug": "Y4wUkqhw"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۹۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "آپارتمان فروشی محدوده بهشت در اسفراین - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان فروشی محدوده بهشت در دیوار اسفراین",
+        "web_info": {
+            "title": "آپارتمان فروشی محدوده بهشت",
+            "city_persian": "اسفراین",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "esfarayen"
+    },
+    "details": {
+        "business_ref": "25214",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "esfarayen",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 1850000000,
+        "rent": 0,
+        "token": "gZl7FEvn"
+    }
+}

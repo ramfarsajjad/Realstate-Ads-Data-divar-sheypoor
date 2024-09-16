@@ -1,0 +1,105 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.758179623185,
+                        "longitude": 51.351728439331
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سالار اصغری",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_233882",
+                                "slug": "agent_llFkN1Lj"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۷۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "شهرک غرب خوارزم فروش ویلایی ۱۷۵ متری در تهران - ۲۶ شهریور ۱۴۰۳",
+        "description": "آگهی شهرک غرب خوارزم فروش ویلایی ۱۷۵ متری در دیوار تهران",
+        "web_info": {
+            "title": "شهرک غرب خوارزم فروش ویلایی ۱۷۵ متری",
+            "district_persian": "شهرک غرب",
+            "city_persian": "تهران",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "01-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "agent_233882",
+        "business_type": "real-estate-business",
+        "category": "house-villa-sell",
+        "city": "tehran",
+        "credit": 0,
+        "district": "shahrak-e-gharb",
+        "image_count": 0,
+        "price": 65000001536,
+        "rent": 0,
+        "token": "gZTLj8Tq"
+    },
+    "sc_time": 1726487549.661398
+}

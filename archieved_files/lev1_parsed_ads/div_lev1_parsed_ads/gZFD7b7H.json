@@ -1,0 +1,220 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/3JqGwVSCE2TsQvrw6ndazw/19A5BE7B-4D5D-487B-AFD3-1164D922612B.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/EFW4nC2GI5sgpQn8i0gyNQ/0FD0483C-E41B-4C36-B340-CC2EEE6FA8E4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/5sjA-xyagEkV0zWWeynrbw/FB162497-87B0-429B-ABD2-68FA0A904DE5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/3WSZpjDEwhew0bos7n26ug/05D96805-F59F-4F7D-A1AA-3E6DEA1625A6.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/dgBcil2x-jZH1L2G3Ac4Tw/2B16A1C2-C832-4A62-8474-A227C3E4CE38.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/QgC3fO60O101RG23FHvg7Q/405095F3-56CF-4633-8CBB-376B03EC43C7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/dX4qj3fTk6ZiK_tQ69ReBQ/01644832-A50A-4365-B286-37C51FE97E7A.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/v10U_tCfHWbzIESbTm7IqQ/06703210-0507-4EB1-807B-4FB405317D94.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 38.033474914583,
+                        "longitude": 46.341055351544
+                    },
+                    "radius": 300
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سامانه مِلْکِ‌توُن",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/BoeMJ8ZkqkoRnCb-IlwuYA.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "15940",
+                                "slug": "hrSVEV0z"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۲۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۱"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "سایر"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "جنوبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "جنوبی"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "سایر"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۱"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش آپارتمان ۱۲۵ متری صفر در میرداماد،زعفرانیه،ویلاشهر در تبریز - ۱۹ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان ۱۲۵ متری صفر در میرداماد،زعفرانیه،ویلاشهر در دیوار تبریز",
+        "web_info": {
+            "title": "آپارتمان ۱۲۵ متری صفر در میرداماد،زعفرانیه،ویلاشهر",
+            "city_persian": "تبریز",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "21-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "tabriz"
+    },
+    "details": {
+        "business_ref": "15940",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "tabriz",
+        "credit": 0,
+        "district": "",
+        "image_count": 8,
+        "price": 5500000256,
+        "rent": 0,
+        "token": "gZFD7b7H"
+    }
+}

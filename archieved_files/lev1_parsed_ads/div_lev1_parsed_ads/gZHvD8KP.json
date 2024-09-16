@@ -1,0 +1,113 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/f2rQ8ONsiF4P4axXMtZPYg/5dbbc849-065b-4478-9704-8fd1456a2c77.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.778967668579,
+                        "longitude": 51.334476470947
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "بزرگ پونک",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/TxBx9R47t8xrDtW10GvclA.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "3898",
+                                "slug": "KjS7qO5d"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۶۶"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری ندارد"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۶۶متر_موقعیت اداری_۱خواب_پونک اشرفی در تهران - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی ۶۶متر_موقعیت اداری_۱خواب_پونک اشرفی در دیوار تهران",
+        "web_info": {
+            "title": "۶۶متر_موقعیت اداری_۱خواب_پونک اشرفی",
+            "district_persian": "پونک",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ دفتر کار، اتاق اداری و مطب"
+        },
+        "register_date": "22-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "office-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "3898",
+        "business_type": "real-estate-business",
+        "category": "office-rent",
+        "city": "tehran",
+        "credit": 100000000,
+        "district": "poonak",
+        "image_count": 1,
+        "price": 0,
+        "rent": 21000000,
+        "token": "gZHvD8KP"
+    }
+}

@@ -5,23 +5,23 @@ import csv
 import os
 import time
 import logging
+import sys
+from setup_log import setup_logger
 
 
 
-
-def syp_dc():
+def syp_sc():
 
     dir_main = os.path.dirname(os.path.abspath(__name__))
 
     dir_log = os.path.join(dir_main, 'logs')
-    log_file = os.path.join(dir_log, 'syp_sc_log.log')
-    logging.basicConfig(
-        level=logging.INFO,  # تنظیم سطح لاگ (می‌توانید به دلخواه تغییر دهید)
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.FileHandler(log_file), logging.StreamHandler()]  # ذخیره لاگ در فایل و نمایش در کنسول
-    )
-
-    logger = logging.getLogger(__name__)
+    log_file = os.path.join(dir_log, 'syp_sc.log')
+    
+    if 'logger_syp_sc' in logging.Logger.manager.loggerDict:
+        logger = logging.getLogger('logger_syp_sc')
+    else:
+        logger = setup_logger(log_file, 'logger_syp_sc')
+    
 
     try:
         # URL API

@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.72217,
+                        "longitude": 51.429974
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "پاشا",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/3J4yzfb6Vp54zAqTX4jxng.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "19975",
+                                "slug": "uwTvkDnM"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۶"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۰۶آپارتمان با سند اداری مطهری سلیمان خاطر در تهران - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی ۱۰۶آپارتمان با سند اداری مطهری سلیمان خاطر در دیوار تهران",
+        "web_info": {
+            "title": "۱۰۶آپارتمان با سند اداری مطهری سلیمان خاطر",
+            "district_persian": "سهروردی",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ دفتر کار، اتاق اداری و مطب"
+        },
+        "register_date": "02-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "office-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "19975",
+        "business_type": "real-estate-business",
+        "category": "office-rent",
+        "city": "tehran",
+        "credit": 1000000000,
+        "district": "north-sohrevardi",
+        "image_count": 0,
+        "price": 0,
+        "rent": 20000000,
+        "token": "gZUfjlzj"
+    }
+}

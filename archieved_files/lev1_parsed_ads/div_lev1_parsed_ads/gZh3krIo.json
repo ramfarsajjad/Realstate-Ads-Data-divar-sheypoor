@@ -1,0 +1,100 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.29053,
+                        "longitude": 59.515034
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "ایزانلو",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_257938",
+                                "slug": "agent_qRBxXfLv"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۷۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۷۵متر_۲خواب_ پایداری_ همکف_بدون مالک در مشهد - ۲۱ شهریور ۱۴۰۳",
+        "description": "آگهی ۷۵متر_۲خواب_ پایداری_ همکف_بدون مالک در دیوار مشهد",
+        "web_info": {
+            "title": "۷۵متر_۲خواب_ پایداری_ همکف_بدون مالک",
+            "district_persian": "محله سرافرازان",
+            "city_persian": "مشهد",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "12-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "mashhad"
+    },
+    "details": {
+        "business_ref": "agent_257938",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "mashhad",
+        "credit": 150000000,
+        "district": "kuy-e-sarafrazan",
+        "image_count": 0,
+        "price": 0,
+        "rent": 7500000,
+        "token": "gZh3krIo"
+    }
+}

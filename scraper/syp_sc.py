@@ -6,7 +6,6 @@ import os
 import time
 import logging
 
-
 dir_main = os.path.dirname(os.path.abspath(__name__))
 
 dir_log = os.path.join(dir_main, 'logs')
@@ -18,6 +17,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+
 
 while True:
     try:

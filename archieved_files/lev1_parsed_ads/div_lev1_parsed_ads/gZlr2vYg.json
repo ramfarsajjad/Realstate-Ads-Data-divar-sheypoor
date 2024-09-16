@@ -1,0 +1,101 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.555298,
+                        "longitude": 51.16963
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سید املاک گلستان",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/DpKzcr-n-pWh7epMO6FqEw.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_430454",
+                                "slug": "agent_pOVJWEy5"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۵۴"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۴"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش واحد۵۴مترشهرک مهرط۵ در نسیم‌شهر - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی فروش واحد۵۴مترشهرک مهرط۵ در دیوار نسیم‌شهر",
+        "web_info": {
+            "title": "فروش واحد۵۴مترشهرک مهرط۵",
+            "city_persian": "نسیم‌شهر",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "nasimshahr"
+    },
+    "details": {
+        "business_ref": "agent_430454",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "nasimshahr",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 1300000000,
+        "rent": 0,
+        "token": "gZlr2vYg"
+    }
+}

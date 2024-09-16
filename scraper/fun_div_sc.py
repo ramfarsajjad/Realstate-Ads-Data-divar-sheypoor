@@ -5,6 +5,8 @@ import csv
 import os
 import time
 import logging
+import sys
+from setup_log import setup_logger
 
     
 # URL API
@@ -14,18 +16,16 @@ def div_sc():
     dir_main = os.path.dirname(os.path.abspath(__name__))
 
     dir_log = os.path.join(dir_main, 'logs')
-    log_file = os.path.join(dir_log, 'div_sc_log.log')
-    logging.basicConfig(
-        level=logging.INFO,  # تنظیم سطح لاگ (می‌توانید به دلخواه تغییر دهید)
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[logging.FileHandler(log_file), logging.StreamHandler()]  # ذخیره لاگ در فایل و نمایش در کنسول
-    )
+    log_file = os.path.join(dir_log, 'div_sc.log')
 
-    logger = logging.getLogger(__name__)
+    if 'logger_div_sc' in logging.Logger.manager.loggerDict:
+        logger = logging.getLogger('logger_div_sc')
+    else:
+        logger = setup_logger(log_file, 'logger_div_sc')
 
     try:
         url = 'https://api.divar.ir/v8/postlist/w/search'
-    # pgnum = int(input("enter yout page numger: "))
+        # pgnum = int(input("enter yout page numger: "))
 
         payload = {"city_ids":["853","759","760","5","852","761","762","763","764","10","859","765","766","767","857",
                         "768","858","856","769","792","770","17","771","772","1741","1743","773","1742","1737",

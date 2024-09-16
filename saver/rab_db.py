@@ -4,7 +4,7 @@ import json
 
 def callback(ch, method, properties, body):
     print(f"Received scraped data: {body.decode()}")
-    save2db(body.decode())
+    save2db(body.decode()) 
     
     # تأییدیه پیام
     ch.basic_ack(delivery_tag=method.delivery_tag)

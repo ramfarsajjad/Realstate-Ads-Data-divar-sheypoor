@@ -5,6 +5,8 @@ from syp_secfind import dicfdr
 from syp_decnum_pass import decnum
 import time
 import logging
+import datetime
+
 
 dir_main = os.path.dirname(os.path.abspath(__name__))
 
@@ -155,17 +157,35 @@ while True:
             if not decnum(data['main']['property'], 'انباری') == None:
                 real_state['storage'] = data['main']['property'][decnum(data['main']['property'], 'انباری')]['انباری']
 
+            if "timePassedLabel" in data['main']:
+                word = data['main']['timePassedLabel'].split()
+                if len(word) == 2:
+                    current_date = datetime.date.today()
+                elif len(word) == 3:
+                    if word[1] == "روز":
+                        current_date = datetime.date.today() - datetime.timedelta(days=int(word[0]))
+                    elif word [1] == "هفته":
+                        current_date = datetime.date.today() - datetime.timedelta(days=int(word[0]) * 7)
+                
+                real_state['register_data'] = f"{current_date.day}-{current_date.month}-{current_date.year}"
+                
+                
 
 
-        # نوشتن فایل CSV
-            with open(dbfname, mode='a' , encoding='utf-8' , newline='') as file: 
-                writer = csv.DictWriter(file, fieldnames=real_state.keys())
-                writer.writerow(real_state)
 
-            logger.info('ADD TO SHEYP CSV, SUCCESSFUL!')
+
+
+
+
+    #     # نوشتن فایل CSV
+    #         with open(dbfname, mode='a' , encoding='utf-8' , newline='') as file: 
+    #             writer = csv.DictWriter(file, fieldnames=real_state.keys())
+    #             writer.writerow(real_state)
+
+    #         logger.info('ADD TO SHEYP CSV, SUCCESSFUL!')
 
 
         except:
             logger.exception(f'CAN NOT  ADD {real_state["token"]} TO SHEYP CSV!\nERORR:')
 
-    time.sleep(90)
+    # time.sleep(90)

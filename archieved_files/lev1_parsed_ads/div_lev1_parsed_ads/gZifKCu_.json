@@ -1,0 +1,101 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.82618,
+                        "longitude": 54.43145
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سعید بالارستاقی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_394929",
+                                "slug": "agent_AgYr1wWF"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره آپارتمان ۸۸ متری در گرگانجدید در گرگان - ۲۶ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان ۸۸ متری در گرگانجدید در دیوار گرگان",
+        "web_info": {
+            "title": "آپارتمان ۸۸ متری در گرگانجدید",
+            "city_persian": "گرگان",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "13-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "gorgan"
+    },
+    "details": {
+        "business_ref": "agent_394929",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "gorgan",
+        "credit": 250000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 4500000,
+        "token": "gZifKCu_"
+    }
+}

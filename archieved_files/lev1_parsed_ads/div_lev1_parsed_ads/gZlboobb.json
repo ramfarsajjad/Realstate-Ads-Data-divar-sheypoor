@@ -1,0 +1,103 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.7572,
+                        "longitude": 51.48011
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "سیب",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/FrO7HRuQiJ01iQ047tveqg.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "36974",
+                                "slug": "SmqRsqa8"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۶"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۶"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره آپارتمان 106متر _جنوبی _ بالای میدان ملت در تهران - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان 106متر _جنوبی _ بالای میدان ملت در دیوار تهران",
+        "web_info": {
+            "title": "آپارتمان 106متر _جنوبی _ بالای میدان ملت",
+            "district_persian": "شمس‌آباد",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "36974",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tehran",
+        "credit": 1000000000,
+        "district": "shams-abad",
+        "image_count": 0,
+        "price": 0,
+        "rent": 13000000,
+        "token": "gZlboobb"
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/LopnxXCBFwhKaShp88K0-Q/0364ab94-5ce6-46e5-9f64-033ccfab344d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/fBFomNeKH3Uq9zhCdzwYhA/fa52c17e-3845-4708-a24a-b097156b2d29.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/II5xphfLdPHT-VVXaDesgg/f65b7ff6-48bb-4e81-9a02-b93c8962adbc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/Y2ZvXfXNDRX6cQLsy8Eyqw/5fd0b73c-9579-4662-9d7b-b998ba265ee2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/w_LWBBSHpOEt5rjO6C2V-Q/e6d5f674-3c2a-439e-83a1-581d47f9650f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/EvPy6qVdPjXkcoD5EgFLvQ/00795aa8-bacb-458d-a11e-72955eb3adf0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/mYQu9GXy1ofZR6wq9TiO_g/52a0f90d-7027-414a-97f3-cba0c6f04dce.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/yAv6UtTV_2XApwIZ7py7lw/aeb08cc7-95d9-4228-a070-e72706a74012.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/CS6mAOcf1yRo03zq4cAcbQ/827cbc25-09bb-4dcf-b69e-dd59221a00c7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/kCS-AObDgRNRF42plk7Zpw/733f6052-e42e-4199-8c76-826500e73714.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/OMlDSQZuPedIzJliU8uI3g/06accf1c-2554-4823-8b1d-da12b452e35c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/LFfCYbkkNKiE60QCvgkw7Q/73573cbb-294a-4f81-b0cc-89d288232ce6.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/llcK_4yqJiPsjgN4vrbOYA/3cc0c325-6385-43dd-b1d0-71da3b3e46af.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/ul9BZpX7ejSAtQBNb_K3lw/8f7d93b9-f069-4135-9fe1-9792d73b8f77.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/_NTomxJ_8Hq2S4xsqTH_oA/101e30b6-1ae9-4a22-afcb-92d3078a0b67.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.93532541492,
+                        "longitude": 50.644016323868
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۶۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZZHv4Fp",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره سوئیت با امکانات کامل در رامسر",
+        "description": "آگهی اجاره سوئیت با امکانات کامل در دیوار رامسر",
+        "web_info": {
+            "title": "اجاره سوئیت با امکانات کامل",
+            "city_persian": "رامسر",
+            "category_slug_persian": "اجارهٔ کوتاه مدت آپارتمان و سوئیت"
+        },
+        "register_date": "06-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "suite-apartment",
+        "city": "ramsar"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "suite-apartment",
+        "city": "ramsar",
+        "credit": 0,
+        "district": "",
+        "image_count": 15,
+        "price": 0,
+        "rent": 0,
+        "token": "gZZHv4Fp"
+    }
+}

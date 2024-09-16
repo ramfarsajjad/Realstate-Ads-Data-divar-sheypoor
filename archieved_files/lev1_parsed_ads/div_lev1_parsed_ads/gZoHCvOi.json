@@ -1,0 +1,153 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/T8zex289v3u5vWBZqq68FQ/d818238a-aa6d-4583-8387-312e9ad8e850.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/XuirTKwp1pgzA9qptwxhWA/d0927c09-5e45-4074-a48e-3c7d0982aa87.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/CddXnWiJUsgSGzUVn4uG5w/b842b7a3-0f91-425c-8967-9f62892bb125.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Voj0CrYsHmAzBN7oIbCm1Q/d36e009c-e9bb-40a0-9323-e78a474d71d6.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/O79VzKCnbmy_HaseCenOxA/a4573787-8b3a-43f0-aaa6-cc3a3310e41a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/zWpbElRsQicB5GjiUMTyvA/c828320a-50c4-40be-8b4e-a8bca4b9136f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/whpt_OVkiRmIqvwRlYe3ZA/e7be5aca-8202-485f-8ae9-5e729d79f433.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RLznfsyx0NNGQes5oBdcLQ/2b66c4c6-c38c-435c-ba0b-bb3b11e1c7c5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/u-3EnJ5C6sNczATibWz7Ng/c6f289cf-8fee-41ee-90a5-a006d0de9bc1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/UzisDSEDDX2Y1iPIgwdv5w/ff9e995e-6732-49fe-a17b-dda7a62fcce5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/vO2h3-ZRv_OCNQcXJPikcg/ae899472-d45d-4c24-a44a-daf5bbfa5b3d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/KeC5ZTZSrMpV3kX61c5OWA/2c5f0b9b-4c1d-4677-87c0-20a52bff2f37.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/lbgjjFu5PVo_GaeKkDrVUw/eb8a831b-f4e0-4fe7-a99c-9e4121461ec3.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.910609212765,
+                        "longitude": 50.674040154839
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZoHCvOi",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "ویلا دو خواب ارسام در رامسر",
+        "description": "آگهی ویلا دو خواب ارسام در دیوار رامسر",
+        "web_info": {
+            "title": "ویلا دو خواب ارسام",
+            "city_persian": "رامسر",
+            "category_slug_persian": "اجارهٔ کوتاه مدت ویلا و باغ"
+        },
+        "register_date": "17-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "villa",
+        "city": "ramsar"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "villa",
+        "city": "ramsar",
+        "credit": 0,
+        "district": "",
+        "image_count": 13,
+        "price": 0,
+        "rent": 0,
+        "token": "gZoHCvOi"
+    },
+    "sc_time": 1726490859.9449453
+}

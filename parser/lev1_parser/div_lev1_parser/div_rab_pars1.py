@@ -1,6 +1,7 @@
 import pika
 from fun_div_parser_lev1 import div_parser1
 import json
+import threading
 
 
 def callback(ch, method, properties, body):
@@ -40,5 +41,16 @@ def start_parsing():
     print('Waiting for scraped data to parse...')
     channel.start_consuming()
 
+def start_multiple_consumers(consumer_count):
+    threads = []
+    for _ in range(consumer_count):
+        t = threading.Thread(target=start_parsing)
+        t.start()
+        threads.append(t)
+    
+    for thread in threads:
+        thread.join()
+
 if __name__ == "__main__":
-    start_parsing()
+    start_multiple_consumers(consumer_count=5)
+

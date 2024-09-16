@@ -1,0 +1,105 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/VtB18zz_QGB0hB3AZ4bg3Q/E217FEBE-43CF-4AAD-AB61-11BCD0212BC0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/bYxQFtN1mnlOw1QOJ_9lkA/40BD143A-568A-4008-AB9B-E535ABBC0DF5.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "خانه خُوَردین",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/YnZh-9NqekNLLVROSQYu2g.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "44606",
+                                "slug": "RriY9bmD"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۵۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۵۰ متر توحید ها در تهران - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی ۱۵۰ متر توحید ها در دیوار تهران",
+        "web_info": {
+            "title": "۱۵۰ متر توحید ها",
+            "district_persian": "شهرک غرب",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "02-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "44606",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tehran",
+        "credit": 500000000,
+        "district": "shahrak-e-gharb",
+        "image_count": 2,
+        "price": 0,
+        "rent": 30000000,
+        "token": "gZUnoQgj"
+    }
+}

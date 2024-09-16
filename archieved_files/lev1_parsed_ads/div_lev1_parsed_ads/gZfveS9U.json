@@ -1,0 +1,85 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.76848,
+                        "longitude": 51.35678
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "آقای عباسی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_424157",
+                                "slug": "agent_ifHyCSJ6"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۷"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره مغازه در فوت کورت،کافه_ایرانی_ترکی_فست فود در تهران - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی اجاره مغازه در فوت کورت،کافه_ایرانی_ترکی_فست فود در دیوار تهران",
+        "web_info": {
+            "title": "اجاره مغازه در فوت کورت،کافه_ایرانی_ترکی_فست فود",
+            "district_persian": "سپهر",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "agent_424157",
+        "business_type": "real-estate-business",
+        "category": "shop-rent",
+        "city": "tehran",
+        "credit": 200000000,
+        "district": "sepehr",
+        "image_count": 0,
+        "price": 0,
+        "rent": 45000000,
+        "token": "gZfveS9U"
+    }
+}

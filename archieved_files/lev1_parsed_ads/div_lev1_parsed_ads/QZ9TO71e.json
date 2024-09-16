@@ -1,0 +1,127 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/OHSEdxCVbWDreS_SORAYoQ/160526fc-840a-4d81-a4e4-b8c7001d5d36.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/I10UIhxrQCha1X3RhqI6rQ/866aa84f-d453-4cab-9d83-27c91d90d3d7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/WLbwnoViQisqhu32R0wCig/230da0f8-f846-4c67-b2b9-8a4bb485319b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/22O2Di4-f6kZjmbrsDyDuQ/a1b05439-377f-4c15-85c0-9c78b49f065c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/hPChervIKJc3M-L2RU-esg/f8316ca1-623b-4342-9dd0-b540dff3ea93.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/KbyBfCISialzuLRPjB2zkQ/6f83a6c1-f2d9-4110-9783-ce2db2c164a2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/I0D6w7tQyVh0ht_yBlfBAA/d8c802b8-6da1-4bf4-b5c0-ca94a03985c3.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/V2p3qo6c19oDWVbMBJcEGw/ab8f0376-7e86-4616-8865-9bea74a1b86b.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 36.918994800861,
+                        "longitude": 50.663079323867
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۵۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "QZ9TO71e",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "سوییت ویلا نزدیک دریا تراس دار در رامسر",
+        "description": "آگهی سوییت ویلا نزدیک دریا تراس دار در دیوار رامسر",
+        "web_info": {
+            "title": "سوییت ویلا نزدیک دریا تراس دار",
+            "city_persian": "رامسر",
+            "category_slug_persian": "اجارهٔ کوتاه مدت آپارتمان و سوئیت"
+        },
+        "register_date": "19-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "suite-apartment",
+        "city": "ramsar"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "suite-apartment",
+        "city": "ramsar",
+        "credit": 0,
+        "district": "",
+        "image_count": 8,
+        "price": 0,
+        "rent": 0,
+        "token": "QZ9TO71e"
+    }
+}

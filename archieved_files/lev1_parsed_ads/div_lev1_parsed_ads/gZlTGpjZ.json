@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 38.249252,
+                        "longitude": 48.297806
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "ایفا",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/ZXANizj3nCDYXKYz29yZpg.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "51303",
+                                "slug": "ybiFfhPG"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۷۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۶"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره اپارتمان ۷۵متری بلوک ۸کوثر در اردبیل - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی اجاره اپارتمان ۷۵متری بلوک ۸کوثر در دیوار اردبیل",
+        "web_info": {
+            "title": "اجاره اپارتمان ۷۵متری بلوک ۸کوثر",
+            "city_persian": "اردبیل",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "ardabil"
+    },
+    "details": {
+        "business_ref": "51303",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "ardabil",
+        "credit": 230000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 500000,
+        "token": "gZlTGpjZ"
+    }
+}

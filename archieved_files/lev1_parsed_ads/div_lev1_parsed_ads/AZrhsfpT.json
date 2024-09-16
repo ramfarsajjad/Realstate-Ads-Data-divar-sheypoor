@@ -1,0 +1,169 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/575b7269-816b-4320-9489-fc33b1c4077e.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/575b7269-816b-4320-9489-fc33b1c4077e.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/WJSUIgC07oquA2HzlR7jlA/6ac3d61f-1ad3-424c-81a2-fc46706bda46.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/IsdqXYno-AoJk-ifTL31Ng/a4734aa4-5d88-408b-9086-32dc0fd695c2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/K7sF7Iw5eqQLfIDVPunpxQ/8ae41bb2-4a4c-4e04-b841-dd935a8ec61b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6G9I90uFZWA0U27VkSgqzA/891aaf08-0673-4877-a497-9bffaa49cb7c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/16_YUnTi43pUl_2klEX9uw/e496575f-ce42-4913-99be-50c84792cc14.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/YotyzlgrS-zN849nf4savg/e3b5460e-291d-4f8e-beb4-904e9144c344.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/htAE3sqCFMH7EW1uHSYcZg/b9c206bf-2110-4923-8461-549038da4538.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/YSLKkw8y2----I3RgMwdaQ/f3df0d68-433d-477d-9197-95c8625e2549.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/2njxws6693vvYBp4iTqwBQ/881e21a2-2a9e-4292-ae4a-572c8f4dd43e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/I_1P-27i06FrYj-qCXv4ZA/af8ba27f-ae26-41aa-83fd-67d919b50d84.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mH4UXEl1g9LMCszUGNPKDg/039c1c33-9ea0-428f-b9ce-3e94459723b9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/7rGsCwc8iQS7R15nbx5sSA/cdafb587-985f-4878-bb1a-1145762a3a70.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/UN5XyPLTesjsU8r9zzhJ3Q/8e569fa7-8c5b-4186-887a-e837ea7c5152.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/GhJGkc1Op8F-E_nn-9zsPA/b7bd7c98-2dfb-4563-ba5f-be64ca0e0a16.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/49gPbN4XnDfDfflBpx7AKQ/a79a77b3-3d05-479a-8501-729e591aea24.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.82522,
+                        "longitude": 51.586277
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "AZrhsfpT",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "ویلا ۵ ستاره جاباما برو داخل سایت و سرچ کن۳۸۹۹۸۹ در لواسان",
+        "description": "آگهی ویلا ۵ ستاره جاباما برو داخل سایت و سرچ کن۳۸۹۹۸۹ در دیوار لواسان",
+        "web_info": {
+            "title": "ویلا ۵ ستاره جاباما برو داخل سایت و سرچ کن۳۸۹۹۸۹",
+            "city_persian": "لواسان",
+            "category_slug_persian": "اجارهٔ کوتاه مدت ویلا و باغ"
+        },
+        "register_date": "14-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "villa",
+        "city": "lavasan-city"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "villa",
+        "city": "lavasan-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 15,
+        "price": 0,
+        "rent": 0,
+        "token": "AZrhsfpT"
+    },
+    "sc_time": 1726490922.7922616
+}

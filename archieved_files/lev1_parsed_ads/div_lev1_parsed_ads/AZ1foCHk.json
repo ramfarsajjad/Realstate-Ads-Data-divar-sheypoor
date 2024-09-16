@@ -1,0 +1,140 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/tXv8Y5u5Sxj_Kx4Jrs_ykA/f410a7de-993e-4451-9f12-7b5ca5763fb5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Ob5zYq3qx41L2ZTWo4avYA/cf9bfc04-c308-454c-aa69-1c66aafe43f7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/f7guspYWGWbQ3CQXd3b-Yg/d3df3ec9-e539-482a-be43-a4c3c312f07e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mXBh6qDEs_Wqk7P9R92fJA/2ff843d7-8b92-4fd5-9340-7c618191ce00.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/A4KOHXt5XT98eKAAv8mJzg/5065a0c4-b6e0-4717-bd8a-f8e80c61dbfe.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/HliiIJeJ2-7Um14xhMCDeQ/754b3022-9bb8-428e-b2d9-5f11b0ed53af.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/kfoFojMORQEuHIBDMh4h2w/1fc5f046-fcd0-413e-a53e-3e65577a2598.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/kePZQ8tBXWhHcxOEv1p0Tg/f2e902ea-ed15-402c-a2ef-d782a17792e1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/4ZZz-U5WD9fBUrEHcU11wA/d4c1d58f-4e45-40cc-9500-bb5361d71347.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "بنفشه ایزدی شهنانی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "agent_249085",
+                                "slug": "agent_PV4TbmPD"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۶۶"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "AZ1foCHk",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره سوییت و یک خواب (ارتباط با مالک) کد ۱۲۰ در کیش",
+        "description": "آگهی اجاره سوییت و یک خواب (ارتباط با مالک) کد ۱۲۰ در دیوار کیش",
+        "web_info": {
+            "title": "اجاره سوییت و یک خواب (ارتباط با مالک) کد ۱۲۰",
+            "city_persian": "کیش",
+            "category_slug_persian": "اجارهٔ کوتاه مدت آپارتمان و سوئیت"
+        },
+        "register_date": "29-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "suite-apartment",
+        "city": "kish"
+    },
+    "details": {
+        "business_ref": "agent_249085",
+        "business_type": "real-estate-business",
+        "category": "suite-apartment",
+        "city": "kish",
+        "credit": 0,
+        "district": "",
+        "image_count": 9,
+        "price": 0,
+        "rent": 0,
+        "token": "AZ1foCHk"
+    }
+}
