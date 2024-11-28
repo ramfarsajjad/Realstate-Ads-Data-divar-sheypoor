@@ -1,0 +1,270 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/fb5a8f72-51ea-4d77-855c-990cee4f8510.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/fb5a8f72-51ea-4d77-855c-990cee4f8510.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/CmDIFtbCE94EO3C564WmSQ/df312abb-e837-4ae0-8618-fe26001b9300.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ce1lggZPUEpPFbJ4oAPTXw/26bb8c49-7651-4590-af0b-d4737b03e826.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/a-nZYN9MfqPRpW8mgqdv4w/81c3d52c-4892-45a4-bec1-300934bb59c0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/cM_haXHYGNBEerAt6RVBdA/c19be3b0-8f02-473d-be2f-e165c43920dc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/h7p8P1aY72jQo8EI3qar0Q/671adadd-21e1-4699-b5de-c5049e8cef6a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/67RGeUSnOhDXFMEFyjOAXA/f8e275d1-0a9c-48fe-a00c-9b264bcfc0e9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/az4pcqBY8w0QFLdQI9wI_g/91eea31a-c943-4b4b-bdc5-9757c2a192a1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/aunJwodlEGNjWwEWfZftWQ/a3436ee4-1cfa-41f4-9447-c1f41ffc58aa.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/FGfjz7bJ50wLaxVIFuFoKg/90b5cd09-8f41-4d71-8e15-9e1123618c6c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/P1beJAcPPsU5pyg0836R4A/2cde0382-96e9-4507-bda9-2842a5085113.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RrxWqEgEMbB7uzJpS5alNA/9ca2af69-1b15-430e-9bd5-614cdfe835dd.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6taGFxfaRs6thGVMaauYtw/c7e51ca3-f2c7-4986-87cc-eb274f4c3c1e.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.747186636344,
+                        "longitude": 51.802778014323
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZzDKkcO/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZzDKkcO"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "سایر"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "غربی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی شده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی شده"
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "غربی"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "سایر"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش نگین گمشده در فاز ۸ پردیس با کاهه در پردیس - ۳۰ شهریور ۱۴۰۳",
+        "description": "آگهی نگین گمشده در فاز ۸ پردیس با کاهه در دیوار پردیس",
+        "web_info": {
+            "title": "نگین گمشده در فاز ۸ پردیس با کاهه",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "21-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "oBMLeyyH_pUyzvgqB",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 12,
+        "price": 2800000000,
+        "rent": 0,
+        "token": "gZzDKkcO"
+    },
+    "sc_time": 1728471319.0230823
+}

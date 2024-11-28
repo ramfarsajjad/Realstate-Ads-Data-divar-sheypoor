@@ -1,0 +1,103 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/z5oCSG3-OFx88szMmnNjtA/50f1fc06-6b20-4e42-b452-da09fda786ad.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/w9zrSU01M-V1QzMtA0lSRQ/a3f7e07c-9e3a-4cd6-964e-2d7dd9e651de.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZgfyF5b/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZgfyF5b"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۹۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش نگارستان۹۸متری تراس بزرگ فاز۸پردیس در پردیس - ۲۰ شهریور ۱۴۰۳",
+        "description": "آگهی نگارستان۹۸متری تراس بزرگ فاز۸پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "نگارستان۹۸متری تراس بزرگ فاز۸پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "NxHBxISh_hZGONIXp",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 2100000000,
+        "rent": 0,
+        "token": "gZgfyF5b"
+    },
+    "sc_time": 1728471627.8842258
+}

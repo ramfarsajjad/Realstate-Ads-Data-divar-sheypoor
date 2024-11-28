@@ -1,0 +1,225 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6HNR1BuM-i23cz-47OWTIw/76ca24b1-7933-430b-aec4-5b1d4787875f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/715vyzsElJvwiy1iemEx7w/68fbae7e-839a-415a-b596-80ecd7389b95.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/obuzWry-0exrwS_cf0QSVQ/4c6c5daf-2dce-457e-b4d0-6887985637e8.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/vc6Wtm8IO-8qoRqLbgPSAw/a9fb111e-a520-48d7-b632-11c5930c4ea9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/SjiKVNCO1AyQgDz9kL_v0A/a765c7a5-863e-4eb7-ae02-c997bd8ccb92.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/nzZg9PxDo0I65k2GPyy82A/72aa4958-6112-40ba-8c5a-e0d1ef1e5d5a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/5Zo-mxr7QBvASDuiarL8bQ/089a5539-c1b1-43f8-94be-fa4b6e5313ed.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/_obKEjZctgPp3acV1AJKLA/7da37c33-09bc-4f21-8393-90e17939e006.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/4X_J277yxAt5lwcEUhE_UA/15809ff5-a282-4aec-8f89-2ba4a098f787.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/uCXbLGXv--bC7rYS6bh_1w/3efdadc5-0af3-457e-9917-44b1d817f82e.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.774019866207,
+                        "longitude": 51.768685702362
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZFEjDFD/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZFEjDFD"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۳"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "سایر"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "سایر"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۳"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز2 محله3 بام پردیس واحد با ویو فول در پردیس - ۱۳ مهر ۱۴۰۳",
+        "description": "آگهی فاز2 محله3 بام پردیس واحد با ویو فول در دیوار پردیس",
+        "web_info": {
+            "title": "فاز2 محله3 بام پردیس واحد با ویو فول",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "27-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "pfktoQRp_lSvWtfPa",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 10,
+        "price": 5249999872,
+        "rent": 0,
+        "token": "wZFEjDFD"
+    },
+    "sc_time": 1728471867.1342394
+}

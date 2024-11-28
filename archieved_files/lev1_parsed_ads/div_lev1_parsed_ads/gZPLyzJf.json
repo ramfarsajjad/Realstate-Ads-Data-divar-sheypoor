@@ -1,0 +1,142 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/esNChzj0NQBDbvkBVzLylw/cc255a4d-0273-41ff-a2d4-113003961fd1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/MKvD7Usc5C1nHEpSZevOUQ/76c2bba6-8fad-465e-a45c-3c44e8a6b055.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/nG2kxkaTFU0cGbdHHDNTRw/1d5441da-452a-4e0d-963b-51f1bf658ddd.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/hDNp9IAWcybeO7v0DHrgpQ/e390cca9-5eef-4bfd-98fa-bc0cc2f91cb3.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/S5O5LJ6Gy_Rw7omo5rm2zQ/46056391-efe5-4628-8f65-359b016fb31a.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.774113,
+                        "longitude": 51.77555
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZPLyzJf/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZPLyzJf"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZPLyzJf",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس فاز ۱۱ طبقه ۱۱ غربی ویوازدوطرف بدون مشرف فول در پردیس - ۵ مهر ۱۴۰۳",
+        "description": "آگهی پردیس فاز ۱۱ طبقه ۱۱ غربی ویوازدوطرف بدون مشرف فول در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز ۱۱ طبقه ۱۱ غربی ویوازدوطرف بدون مشرف فول",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "28-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "aBpSHpZd_cSjnxcxo",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 5,
+        "price": 2700000000,
+        "rent": 0,
+        "token": "gZPLyzJf"
+    },
+    "sc_time": 1728472346.674949
+}

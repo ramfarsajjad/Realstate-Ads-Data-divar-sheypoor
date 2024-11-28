@@ -1,0 +1,170 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/zury-_zS1jhMg-UY7UWZaA/1001fc5c-39fe-4d44-a948-443788bbb4c9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/Wf5QpFqWhdmi_epcXIZwBQ/e0998c85-0846-4428-9546-ce36e145fb00.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/b1Hbk581nJ5p09PQq75qLQ/497929ee-8254-479b-84f8-77dbd44a4f80.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/4G320-YhFhRr8iCFsX9YmQ/f5ad03e7-a3e2-493f-a46f-fcc0f42dc7b4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/A564v2YL3ZXOz6yv8aT_3Q/ef8890cb-103d-46cb-ad46-81d00db59d91.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/HY_OjyumCCS_bMa3yKK28g/6ee90b2a-64d8-444c-b7ae-7484ec33686b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/RaPOgS4eNbOad_gjeJk7MQ/975da0e4-6ac5-4289-8d33-47cdab256f14.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.776162797055,
+                        "longitude": 51.770653338388
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZFAdWPG/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZFAdWPG"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۶"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس _زون۱_ویوعالی_لاکچری در پردیس - ۱۸ مهر ۱۴۰۳",
+        "description": "آگهی پردیس _زون۱_ویوعالی_لاکچری در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس _زون۱_ویوعالی_لاکچری",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "09-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "IJmZpuGG_nRGpILFw",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 7,
+        "price": 3100000000,
+        "rent": 0,
+        "token": "wZFAdWPG"
+    },
+    "sc_time": 1728471229.5134387
+}

@@ -1,0 +1,76 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/LiGZT7C3yGYtuPnYkew1ZA/9853df47-5585-455b-8b88-91e7fb76d948.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.747736575061886,
+                        "longitude": 51.79538815040934
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZvP8pP_/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZvP8pP_"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین فاز 2_محله ویلا نشین در پردیس - ۱ مهر ۱۴۰۳",
+        "description": "آگهی زمین فاز 2_محله ویلا نشین در دیوار پردیس",
+        "web_info": {
+            "title": "زمین فاز 2_محله ویلا نشین",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "23-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "MZkqVNLw_IcrJoowq",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 12999999488,
+        "rent": 0,
+        "token": "gZvP8pP_"
+    },
+    "sc_time": 1728471186.1884508
+}

@@ -1,0 +1,213 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/78b16977-7201-490c-9ad4-792ed9ada7a9.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/78b16977-7201-490c-9ad4-792ed9ada7a9.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Nxu80mYUUKdb7JCXileH2w/d5973feb-ca2f-4086-bc15-c14567577b6f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/sLjQ_Rvj5fsITz6BgN7FZQ/bf7bcfa1-7fce-4def-9d56-88cec61a13a9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/kGRSC4saCqJUI_RyznbBtw/928da3a2-29f4-4d24-b320-997b5e47741d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6JZlvpELaw7MWSZ_IbN29A/73056938-7de1-4acd-a1a4-c497575c302c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/teKLmb7g6fU7KongRKOakg/01209639-13de-4d5f-a545-5fd4b0a7426a.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.730217,
+                        "longitude": 51.749943
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZef6yLL/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZef6yLL"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۱۲"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی شده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی شده"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره پردیس _ فاز ۸ _ شخصی ساز ناحیه ۱ در پردیس - ۲۲ شهریور ۱۴۰۳",
+        "description": "آگهی پردیس _ فاز ۸ _ شخصی ساز ناحیه ۱ در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس _ فاز ۸ _ شخصی ساز ناحیه ۱",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "10-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ZYqatTKg_PZYTmPWD",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 250000000,
+        "district": "",
+        "image_count": 5,
+        "price": 0,
+        "rent": 8000000,
+        "token": "gZef6yLL"
+    },
+    "sc_time": 1728471181.2941666
+}

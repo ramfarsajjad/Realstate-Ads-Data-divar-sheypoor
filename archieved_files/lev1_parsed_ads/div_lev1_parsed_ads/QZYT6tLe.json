@@ -1,0 +1,129 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/4491b0e9-fdcb-4d8d-991e-1e7f5fa52f36.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/4491b0e9-fdcb-4d8d-991e-1e7f5fa52f36.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/1Lq817PrR9FjaButppMeVA/5fcb402e-fee6-48b4-b7df-cbba0f869bbc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6AyEny47KQ41LXxnDwem7g/405cb9e1-2e84-490e-a40b-40c16ba14b60.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/WhB5quuJOkAHbEXEtWHopQ/c421a22e-77f4-4d17-b1ef-36e573545f1d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Gc5vKTE_S3FMRPLS43Ig-w/836476c1-3150-4893-ae1e-62ad65e7e1d1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Ei69ODqvYjxU3WD31pj0NQ/23a89db7-ec59-4f80-bb4a-99c970ad5881.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/R3h3fqw2a8Rg5WuP7k0d8Q/cda1512a-fa37-4bab-9b2a-68abd85a4e22.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/06pxCY7QnK4241qt7Qsh8A/f8576b31-b15a-45cc-85e8-fe5e8d7e27e3.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 37.473064,
+                        "longitude": 49.503834
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۷۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "QZYT6tLe",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "سوییت دوخوابه با استخر بر دریا بدون واسطه در بندر انزلی",
+        "description": "آگهی سوییت دوخوابه با استخر بر دریا بدون واسطه در دیوار بندر انزلی",
+        "web_info": {
+            "title": "سوییت دوخوابه با استخر بر دریا بدون واسطه",
+            "city_persian": "بندر انزلی",
+            "category_slug_persian": "اجارهٔ کوتاه مدت آپارتمان و سوئیت"
+        },
+        "register_date": "21-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "suite-apartment",
+        "city": "bandar-anzali"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "suite-apartment",
+        "city": "bandar-anzali",
+        "credit": 0,
+        "district": "",
+        "image_count": 7,
+        "price": 0,
+        "rent": 0,
+        "token": "QZYT6tLe"
+    },
+    "sc_time": 1726568508.2193036
+}

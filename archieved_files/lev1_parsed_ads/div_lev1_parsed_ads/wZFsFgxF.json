@@ -1,0 +1,233 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/rP4iVYtjrQuv8EYh0NqWHw/6a3a4b24-cc48-4c05-87c6-0090a09c8865.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/X10pJsWJIJhCSf4nfigDWA/267f6a5c-0d11-47ee-8df3-aa105ea72d82.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/rdOZb9W8dviFQQSRL-4faQ/7afe8229-ca0f-4bc2-a753-cd3e57f8237c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/BMi1p04XXVCgCxVNmaf9mQ/87feb7f3-eae3-4141-afb1-fe5a743bb451.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/HbIgXZKtuWDHVKiz0u7J8w/b18daef5-05ef-4e5c-a046-edd8554a9e67.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/ZPTjuGULmeobyjqGBXemRg/3706135e-a7ee-4777-acc5-cc9d40ea3ea2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/yMDeYuP9TU9osx0viE0x4Q/19aa8a46-9807-434c-aa98-800c6764ebba.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/x7QJmG6tNneafbuAWAu1YA/51a4822e-e204-417f-affe-1b1d609c831c.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.729669591622,
+                        "longitude": 51.763663861117
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZFsFgxF/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZFsFgxF"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۹۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۲"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "شرقی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "شرقی"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره واحد ۹۸متری،محله دو (دنا) در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی واحد ۹۸متری،محله دو (دنا) در دیوار پردیس",
+        "web_info": {
+            "title": "واحد ۹۸متری،محله دو (دنا)",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "PMojIGTC_HJzMbEwk",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 8,
+        "price": 0,
+        "rent": 4000000,
+        "token": "wZFsFgxF"
+    },
+    "sc_time": 1728472063.64237
+}

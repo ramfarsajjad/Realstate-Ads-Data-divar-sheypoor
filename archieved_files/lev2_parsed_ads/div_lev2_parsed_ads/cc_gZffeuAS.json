@@ -1,0 +1,96 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.728592,
+                        "longitude": 51.800396
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZffeuAS/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZffeuAS"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۷"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۰"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "تعداد واحد در طبقه",
+                        "value": "۴"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری",
+                    "بالکن ",
+                    "جنس کف سرامیک",
+                    "سرویس بهداشتی ایرانی و فرنگی",
+                    "سرمایش کولر آبی",
+                    "گرمایش شوفاژ",
+                    "تأمین‌کننده آب گرم پکیج"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره پردیس فاز ۱۱ در پردیس - ۲۰ شهریور ۱۴۰۳",
+        "description": "آگهی پردیس فاز ۱۱ در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز ۱۱",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "XfzuxifM_rGMuRxbT",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 400000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "gZffeuAS"
+    },
+    "sc_time": 1728471114.1072779
+}

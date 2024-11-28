@@ -1,0 +1,196 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/x1slo03MSLwSKLY48obfFQ/272e6a46-397a-48a8-b658-c5224d5a8741.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/m4sQJeZkWaop-Rx0X1K5Jg/1ab66eff-2b14-45a1-90cf-3571a1ef4e0c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/tXVSZ1b7eb0Ob3Urn8DMJA/497e76d9-7298-41f4-bd04-6015fd18ce55.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/U10P76uYKl2RLHZv2Ifzmw/7ed5dbdd-1ba7-41e5-88bf-93ccbe809fd7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/vQGXm1JRiKWhRnSWpchT9A/4fdf3bdc-d652-41bc-9bae-6bcfd65c3706.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/wm6-r9KOkcVd5liyOgAHrw/7655c3e9-4092-4c93-8574-d739abf25fb5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/N2VYgdhAv82Z394gtEyIqA/1968911f-9bad-4ae1-b5fa-958fca29bd37.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/_nnfhtGVQUGvT3jw4fQ2Fg/3365efd5-71c3-49e9-bb69-424b2f32b1f6.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/ZstcDDFS5fJMYkdouYsqag/7eb8cac7-a4ca-4d0a-a44b-1692c580ec0e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/tJJ4wMpZ99SSKuTF0pJAqw/a416d2e3-97ee-4744-9b46-0255b6edd343.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.745921308201,
+                        "longitude": 51.801160309633
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ3XNAOY/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ3XNAOY"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۹۱"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۴"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۴"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش آپارتمان ۹۱ متری فاز ۵ شمالی کلید خام_آران در پردیس - ۷ مهر ۱۴۰۳",
+        "description": "آگهی آپارتمان ۹۱ متری فاز ۵ شمالی کلید خام_آران در دیوار پردیس",
+        "web_info": {
+            "title": "آپارتمان ۹۱ متری فاز ۵ شمالی کلید خام_آران",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "29-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "fbZouBMA_JAmsvIKf",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 10,
+        "price": 2449999872,
+        "rent": 0,
+        "token": "gZ3XNAOY"
+    },
+    "sc_time": 1728474788.9609225
+}

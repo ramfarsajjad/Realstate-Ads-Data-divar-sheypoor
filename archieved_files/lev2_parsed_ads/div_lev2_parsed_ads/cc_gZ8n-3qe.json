@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.72042841861,
+                        "longitude": 51.756516985215
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ8n-3qe/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ8n-3qe"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۰۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز 8 پردیس واحد خام عرصه تسویه آسانسور روشن۲بالکن در پردیس - ۵ مهر ۱۴۰۳",
+        "description": "آگهی فاز 8 پردیس واحد خام عرصه تسویه آسانسور روشن۲بالکن در دیوار پردیس",
+        "web_info": {
+            "title": "فاز 8 پردیس واحد خام عرصه تسویه آسانسور روشن۲بالکن",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "27-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ZkAIKndx_CPbwtKdY",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 2540000000,
+        "rent": 0,
+        "token": "gZ8n-3qe"
+    },
+    "sc_time": 1728474588.0255077
+}

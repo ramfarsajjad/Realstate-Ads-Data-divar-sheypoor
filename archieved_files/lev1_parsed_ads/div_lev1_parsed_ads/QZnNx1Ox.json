@@ -1,0 +1,81 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/BcG6k9b4YaDgQQWSjt0zJQ/2b84c152-cfb1-4e4e-993b-11ccda50ff6c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/OKOeR3BGBhavAIqTaG_byQ/054dfa47-d3f9-4aed-b445-7ed446f8a706.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.746075,
+                        "longitude": 51.803993
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/QZnNx1Ox/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "QZnNx1Ox"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز ۱۰ زمین در شهر پردیس فاز ۱۰ در پردیس - ۱ مهر ۱۴۰۳",
+        "description": "آگهی فاز ۱۰ زمین در شهر پردیس فاز ۱۰ در دیوار پردیس",
+        "web_info": {
+            "title": "فاز ۱۰ زمین در شهر پردیس فاز ۱۰",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "25-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "CBDWVcbH_RtYqGufv",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 960000000,
+        "rent": 0,
+        "token": "QZnNx1Ox"
+    },
+    "sc_time": 1728472085.8801725
+}

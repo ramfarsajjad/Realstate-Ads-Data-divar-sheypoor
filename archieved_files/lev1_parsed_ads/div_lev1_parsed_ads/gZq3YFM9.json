@@ -1,0 +1,222 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/PdhDw3zyIPtwPlXEGRCwxw/ff72066e-9a2d-40ae-ae8b-0028efe75ce0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/ojslOkhHbpxu2SkoEQO2tg/ed3f3d1b-3bfb-4368-ba86-dd130faaadae.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/BOgnsS8OwncG0oXsT3PFCA/b45bb823-0ebc-4cc9-91f0-92b84a9514eb.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/Kw387_uo7HdQh4r9NITt6Q/d1644c64-dc25-4ea8-a570-e94c211f8b52.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/guoFxDZb2dpx_I8e-UvUoQ/d16514f6-aefa-4847-9211-9a9253cacce9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/_QugmmkiKOIUty55zb4PcQ/07d27031-03f2-4b85-8ed7-4281197fe586.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/hIu2q1OPXN8UhI35veRQfQ/2c90e0e7-302e-4087-847e-bbb0460ef941.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.743017269534,
+                        "longitude": 51.803798884322
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZq3YFM9/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZq3YFM9"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۹۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۹"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۴"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "سند",
+                                "value": "تک‌برگ"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "جنوبی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سنگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی و فرنگی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش شوفاژ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم پکیج"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "جنوبی"
+                        },
+                        {
+                            "title": "سند",
+                            "value": "تک‌برگ"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس ویلایی دوبلکس ۳۹۰ متر فاز ۱ محله ۱ در پردیس - ۶ مهر ۱۴۰۳",
+        "description": "آگهی پردیس ویلایی دوبلکس ۳۹۰ متر فاز ۱ محله ۱ در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس ویلایی دوبلکس ۳۹۰ متر فاز ۱ محله ۱",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "19-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ppCTKRze_HemzBlJT",
+        "business_type": "premium-panel",
+        "category": "house-villa-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 7,
+        "price": 23000000512,
+        "rent": 0,
+        "token": "gZq3YFM9"
+    },
+    "sc_time": 1728474802.350503
+}

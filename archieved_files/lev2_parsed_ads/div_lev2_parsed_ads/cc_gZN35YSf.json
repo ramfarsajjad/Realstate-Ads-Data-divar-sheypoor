@@ -1,0 +1,91 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.7695,
+                        "longitude": 51.765377
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZN35YSf/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZN35YSf"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۰۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "سند",
+                        "value": "تک‌برگ"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری",
+                    "جنس کف سرامیک",
+                    "سرویس بهداشتی ایرانی و فرنگی",
+                    "سرمایش فن کوئل",
+                    "گرمایش شوفاژ",
+                    "تأمین‌کننده آب گرم موتورخانه"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش آپارتمان ۱۰۰ متری پروژه کوثر ارتش در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی آپارتمان ۱۰۰ متری پروژه کوثر ارتش در دیوار پردیس",
+        "web_info": {
+            "title": "آپارتمان ۱۰۰ متری پروژه کوثر ارتش",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "27-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "AFrzdLXa_suKjcfHr",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 675000000,
+        "rent": 0,
+        "token": "gZN35YSf"
+    },
+    "sc_time": 1728471707.6292145
+}

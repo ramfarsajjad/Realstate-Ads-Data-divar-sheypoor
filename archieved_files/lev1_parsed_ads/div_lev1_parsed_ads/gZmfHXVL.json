@@ -1,0 +1,64 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.746704,
+                        "longitude": 51.802452
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZmfHXVL/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZmfHXVL"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین ۲۰۰ متری پردیس در پردیس - ۲۵ شهریور ۱۴۰۳",
+        "description": "آگهی فروش زمین ۲۰۰ متری پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "فروش زمین ۲۰۰ متری پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "16-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "NJNUlBag_WvZIdRZv",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 650000000,
+        "rent": 0,
+        "token": "gZmfHXVL"
+    },
+    "sc_time": 1728472255.5250123
+}

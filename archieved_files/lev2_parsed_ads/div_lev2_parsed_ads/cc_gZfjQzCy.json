@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.728592,
+                        "longitude": 51.800396
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZfjQzCy/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZfjQzCy"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۸"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۸"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره آپارتمان فاز ۱۱ زون ۱ (عطار) در پردیس - ۱۰ مهر ۱۴۰۳",
+        "description": "آگهی آپارتمان فاز ۱۱ زون ۱ (عطار) در دیوار پردیس",
+        "web_info": {
+            "title": "آپارتمان فاز ۱۱ زون ۱ (عطار)",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "10-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "IJmZpuGG_nRGpILFw",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 350000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 1500000,
+        "token": "gZfjQzCy"
+    },
+    "sc_time": 1728471624.4484775
+}

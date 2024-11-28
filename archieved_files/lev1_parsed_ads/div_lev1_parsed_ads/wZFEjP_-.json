@@ -1,0 +1,75 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/-W_NXLJpYFIN2FiWmyhblA/0feaa0d2-05f7-4110-af96-21483417420a.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.74689974983041,
+                        "longitude": 51.802506247058176
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZFEjP_-/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZFEjP_-"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "مشارکت ساخت زمین پردیس در پردیس",
+        "description": "آگهی مشارکت ساخت زمین پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "مشارکت ساخت زمین پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "مشارکت در ساخت املاک"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "partnership",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "NYQRYNTZ_lavZjokn",
+        "business_type": "premium-panel",
+        "category": "partnership",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 0,
+        "token": "wZFEjP_-"
+    },
+    "sc_time": 1728471833.0922444
+}

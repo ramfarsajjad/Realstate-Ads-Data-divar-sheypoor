@@ -1,0 +1,107 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/DbYyVEyRUTKMSapi2awxXg/d191b91c-e1d0-4190-bcb5-f7e2709e22c0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/KlYgq7ygNOm_B5EOHQxWyQ/c815562f-b0ee-480a-98b3-ac7a298f32c7.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/MnzBmVh-EFxj1hF06_OQKw/18734a23-7ed0-42ff-b50e-f9dbccaf181d.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZEUBx5c/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZEUBx5c"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۲۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "مغازه بر خیابان اصلی خرمدشت سیاهسنگ اجاره در پردیس - ۱۶ مهر ۱۴۰۳",
+        "description": "آگهی مغازه بر خیابان اصلی خرمدشت سیاهسنگ اجاره در دیوار پردیس",
+        "web_info": {
+            "title": "مغازه بر خیابان اصلی خرمدشت سیاهسنگ اجاره",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ دفتر کار، اتاق اداری و مطب"
+        },
+        "register_date": "07-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "office-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "HvAoANXB_FGgrWVYz",
+        "business_type": "premium-panel",
+        "category": "office-rent",
+        "city": "pardis-city",
+        "credit": 700000000,
+        "district": "",
+        "image_count": 3,
+        "price": 0,
+        "rent": 21000000,
+        "token": "wZEUBx5c"
+    },
+    "sc_time": 1728474810.7202253
+}

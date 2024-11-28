@@ -1,0 +1,76 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/hVWunuH9PEO_fy-G-DC5Fg/e62e7c0b-a1ce-4cf4-b684-ea760f6f4b36.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.7470587600894,
+                        "longitude": 51.84277495164184
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZAsf5Sn/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZAsf5Sn"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین ۴واحدی فاز۴محله۴ _شمالی در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی زمین ۴واحدی فاز۴محله۴ _شمالی در دیوار پردیس",
+        "web_info": {
+            "title": "زمین ۴واحدی فاز۴محله۴ _شمالی",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "aTFppoYb_UVUoeoCW",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 0,
+        "token": "wZAsf5Sn"
+    },
+    "sc_time": 1728474646.720505
+}

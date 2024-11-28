@@ -1,0 +1,152 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/xsx8N_lSxzAsSeW_WbqJCQ/ba24fdcc-42d7-4ba4-ae19-450f63de8627.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ramVyWvCZO-9q4zt7rXIGQ/9cfc1456-b0b4-463d-9061-82dcdc1f5406.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/LvKRfUHK5q5eBjWoGPD2BQ/23a1825e-1370-4cbe-b7e7-65b0a36dd8ac.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/aaDVAhBT6XrmSFdRhw9wHw/8d913e14-3da8-448e-a32d-806347aa081e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/nF1SLOWgVjrsLGQIuyJf0Q/cf988e79-563a-40f1-ad4d-e5f86885628d.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/BBkSPPJEueXjVBCdOfLI-w/dbdedb67-5aee-49b4-ab3b-bcb2c1c87658.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/wRGtZynrr2KSemOz2COMGA/2f758012-12f6-49c7-bd2e-1b8e3f3cc7d6.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.773617,
+                        "longitude": 51.77751
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZPXSXDy/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZPXSXDy"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۸"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZPXSXDy",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس فاز 11 طبقه 4 جنوب غربی تحویل شده ویودار در پردیس - ۵ مهر ۱۴۰۳",
+        "description": "آگهی پردیس فاز 11 طبقه 4 جنوب غربی تحویل شده ویودار در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز 11 طبقه 4 جنوب غربی تحویل شده ویودار",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "28-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "aBpSHpZd_cSjnxcxo",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 7,
+        "price": 2350000128,
+        "rent": 0,
+        "token": "gZPXSXDy"
+    },
+    "sc_time": 1728471319.1952229
+}

@@ -1,0 +1,124 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/5XJmcCZzNPVcc1qnIt7ZfA/3f646fdd-698e-4ec9-b2b5-a03b69ff16c2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/83o2ZJjzs4bIKT-IfEcugA/25349960-130c-4f2c-8f4c-1475ef417cfe.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/4_fI_3fNN2Aj72TGHHgCUA/0332207d-2d9c-4774-b763-777000ade4d2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/e11OwRhZhNCn020p_WWE5w/2206a52f-a90d-4c4b-948e-4a31d0b46730.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.746563,
+                        "longitude": 51.803486
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZp3n2gz/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZp3n2gz"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۲۳"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس فاز ۳ آپارتمان ۳ خوابه در پردیس - ۴ مهر ۱۴۰۳",
+        "description": "آگهی پردیس فاز ۳ آپارتمان ۳ خوابه در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز ۳ آپارتمان ۳ خوابه",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ERBnZZBb_LtxUtlOk",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 4,
+        "price": 5500000256,
+        "rent": 0,
+        "token": "gZp3n2gz"
+    },
+    "sc_time": 1728472491.064939
+}

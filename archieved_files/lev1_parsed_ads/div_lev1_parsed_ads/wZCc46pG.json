@@ -1,0 +1,63 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.734511770587,
+                        "longitude": 51.820750700595
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZCc46pG/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZCc46pG"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "مشارکت در ساخت، پردیس فاز محله۴ در پردیس",
+        "description": "آگهی مشارکت در ساخت، پردیس فاز محله۴ در دیوار پردیس",
+        "web_info": {
+            "title": "مشارکت در ساخت، پردیس فاز محله۴",
+            "city_persian": "پردیس",
+            "category_slug_persian": "مشارکت در ساخت املاک"
+        },
+        "register_date": "07-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "partnership",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "iCogWIpN_pzqvJcxq",
+        "business_type": "premium-panel",
+        "category": "partnership",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "wZCc46pG"
+    },
+    "sc_time": 1728474728.337488
+}

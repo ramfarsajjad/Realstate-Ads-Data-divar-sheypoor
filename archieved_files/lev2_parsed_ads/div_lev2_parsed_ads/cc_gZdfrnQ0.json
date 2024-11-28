@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.772743,
+                        "longitude": 51.769382
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZdfrnQ0/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZdfrnQ0"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۷"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۷"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره فاز 11خیابان طراوت تخلیه در پردیس - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی فاز 11خیابان طراوت تخلیه در دیوار پردیس",
+        "web_info": {
+            "title": "فاز 11خیابان طراوت تخلیه",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "09-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "HpvBmeOr_mstNjDfZ",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 360000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 100000,
+        "token": "gZdfrnQ0"
+    },
+    "sc_time": 1728472398.5043674
+}

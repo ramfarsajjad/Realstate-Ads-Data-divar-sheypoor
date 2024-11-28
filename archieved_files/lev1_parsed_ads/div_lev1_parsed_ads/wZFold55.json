@@ -1,0 +1,74 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/kBLGonAwWYxrUP45k9lJ7Q/8ba1c4f5-e590-454a-bcd6-846833a95c95.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.744755134651,
+                        "longitude": 51.849218013042
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZFold55/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZFold55"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین ویلایی فاز ۴ در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی زمین ویلایی فاز ۴ در دیوار پردیس",
+        "web_info": {
+            "title": "زمین ویلایی فاز ۴",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ppCTKRze_HemzBlJT",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 6615000064,
+        "rent": 0,
+        "token": "wZFold55"
+    },
+    "sc_time": 1728471976.3363907
+}

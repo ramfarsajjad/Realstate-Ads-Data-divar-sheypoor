@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.742985,
+                        "longitude": 51.814472
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZeLJjuC/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZeLJjuC"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۵"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۰"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره فاز یک میدان عدالت در پردیس - ۱۹ شهریور ۱۴۰۳",
+        "description": "آگهی فاز یک میدان عدالت در دیوار پردیس",
+        "web_info": {
+            "title": "فاز یک میدان عدالت",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "10-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "keKSrgOh_XNdRdntM",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 500000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "gZeLJjuC"
+    },
+    "sc_time": 1728474808.324396
+}

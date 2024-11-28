@@ -1,0 +1,97 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/cHegQLdXT6rbgLw8Ig3VfQ/06cadade-3d89-4a0f-adf7-155f198b029b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/clMU_zNdQQZAGoMU9Sd-MQ/bd21fc5c-2fb8-4bdb-8bfc-79c6fb5a966d.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.781406,
+                        "longitude": 51.755188
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZvSWwN6/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZvSWwN6"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره فازیازده 30متر مغازه بر بلوار فردوسی در پردیس - ۸ مهر ۱۴۰۳",
+        "description": "آگهی فازیازده 30متر مغازه بر بلوار فردوسی در دیوار پردیس",
+        "web_info": {
+            "title": "فازیازده 30متر مغازه بر بلوار فردوسی",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "03-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "dMgJuyRZ_ocHWsJIK",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 2,
+        "price": 0,
+        "rent": 21000000,
+        "token": "gZvSWwN6"
+    },
+    "sc_time": 1728472248.0956388
+}

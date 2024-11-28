@@ -90,17 +90,13 @@
             "section_name": "BUSINESS_SECTION",
             "widgets": [
                 {
-                    "widget_type": "EVENT_ROW",
+                    "widget_type": "LAZY_SECTION",
                     "data": {
-                        "title": "خانم نجارزاده",
-                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/Hh83anL3W8FyLehKDxDWyg.jpg",
-                        "action": {
-                            "type": "REAL_ESTATE_AGENCY_PAGE",
-                            "payload": {
-                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
-                                "business_ref": "agent_438200",
-                                "slug": "agent_pGwEhZJj"
-                            }
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZV77cgQ/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZV77cgQ"
                         }
                     }
                 }
@@ -147,14 +143,14 @@
         }
     ],
     "seo": {
-        "title": "اجاره 180متر.تراسه.با ۳۰متر تراس .فاز ۲ در پردیس - ۲۴ شهریور ۱۴۰۳",
+        "title": "اجاره 180متر.تراسه.با ۳۰متر تراس .فاز ۲ در پردیس - ۱۲ مهر ۱۴۰۳",
         "description": "آگهی 180متر.تراسه.با ۳۰متر تراس .فاز ۲ در دیوار پردیس",
         "web_info": {
             "title": "180متر.تراسه.با ۳۰متر تراس .فاز ۲",
             "city_persian": "پردیس",
             "category_slug_persian": "اجارهٔ خانه و ویلا"
         },
-        "register_date": "04-9-2024"
+        "register_date": "03-10-2024"
     },
     "category": {
         "cat1": "real-estate",
@@ -163,8 +159,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "agent_438200",
-        "business_type": "real-estate-business",
+        "business_ref": "hvoxcdEM_yLNzEYap",
+        "business_type": "premium-panel",
         "category": "house-villa-rent",
         "city": "pardis-city",
         "credit": 1200000000,
@@ -173,5 +169,6 @@
         "price": 0,
         "rent": 0,
         "token": "gZV77cgQ"
-    }
+    },
+    "sc_time": 1728472249.6425846
 }

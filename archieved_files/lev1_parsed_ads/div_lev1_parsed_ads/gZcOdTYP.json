@@ -1,0 +1,92 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/U07oHluhNc-4WmF7L2b4QQ/09f7224d-6637-4bac-8a94-bfcd356f7dc7.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.745564,
+                        "longitude": 51.829266
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZcOdTYP/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZcOdTYP"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش مغازه فاز۳ در پردیس - ۲۵ شهریور ۱۴۰۳",
+        "description": "آگهی مغازه فاز۳ در دیوار پردیس",
+        "web_info": {
+            "title": "مغازه فاز۳",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش مغازه و غرفه"
+        },
+        "register_date": "20-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "shop-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ZwUDzgxy_dWorAhrt",
+        "business_type": "premium-panel",
+        "category": "shop-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 7500000256,
+        "rent": 0,
+        "token": "gZcOdTYP"
+    },
+    "sc_time": 1728474787.7519398
+}

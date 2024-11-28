@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/QdQ01tXDEGxjJVn8IYADRA/a08264ff-a0b7-4d41-a9d3-d6c0f231a8be.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/zgXB-QmZ7V08SuHYaw2egA/6a7e5282-a19b-4a64-a71f-21eb95ebcfda.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/qHU2Hv9LDVR5WYBSM9L3Ag/daab4952-68fb-4481-a55b-9fbb39ad2692.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.766203839602,
+                        "longitude": 51.747291504104
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZnjCLYS",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین داخل بافت ده کمرد در پردیس - ۲۵ شهریور ۱۴۰۳",
+        "description": "آگهی زمین داخل بافت ده کمرد در دیوار پردیس",
+        "web_info": {
+            "title": "زمین داخل بافت ده کمرد",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "16-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 3,
+        "price": 11550000128,
+        "rent": 0,
+        "token": "gZnjCLYS"
+    },
+    "sc_time": 1728474749.616026
+}

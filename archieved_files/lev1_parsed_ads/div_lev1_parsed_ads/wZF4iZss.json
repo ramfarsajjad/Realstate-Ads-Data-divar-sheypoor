@@ -1,0 +1,80 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/sKLiM_endghrIOjEyIQMDA/b04273cd-98bf-4a78-b21f-c6fd3240f47e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/D6rukzM1BiiOVCjsb5Q3nQ/4794f0a5-62d9-4468-bad1-9c8ebfe385a4.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.74614390074541,
+                        "longitude": 51.80447528822546
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZF4iZss/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZF4iZss"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "زمین برای مشارکت در پردیس",
+        "description": "آگهی زمین برای مشارکت در دیوار پردیس",
+        "web_info": {
+            "title": "زمین برای مشارکت",
+            "city_persian": "پردیس",
+            "category_slug_persian": "مشارکت در ساخت املاک"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "partnership",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "NYQRYNTZ_lavZjokn",
+        "business_type": "premium-panel",
+        "category": "partnership",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 0,
+        "rent": 0,
+        "token": "wZF4iZss"
+    },
+    "sc_time": 1728471957.057483
+}

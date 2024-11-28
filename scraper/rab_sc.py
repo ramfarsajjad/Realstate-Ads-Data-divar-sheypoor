@@ -13,12 +13,12 @@ def scrape_data(base):
     TokDir = os.path.join(dir_main, 'scraper')
 
     if base == "div":
-        div_sc()
+        # div_sc()
         TokFile = os.path.join(TokDir,'div_tokbase.json')
         with open(TokFile, 'r') as file:
             tokcell = json.load(file)
         tokcell = set(tokcell)
-        newtok = list(tokcell.difference(div_BufTok))
+        newtok = list(tokcell)
         div_BufTok.update(tokcell)
 
     elif base == "syp":

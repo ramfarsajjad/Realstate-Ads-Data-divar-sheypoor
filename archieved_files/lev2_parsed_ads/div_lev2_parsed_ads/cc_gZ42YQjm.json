@@ -23,13 +23,20 @@
             }
         },
         {
-            "BUSINESS_SECTION": {
-                "title": "املاک امید",
-                "image_url": "https://s100.divarcdn.com/static/images/real-estate/fCm9WjEzZO1Jo3Oys0uRZw.jpg",
-                "type": "REAL_ESTATE_AGENCY_PAGE",
-                "business_ref": "41211",
-                "slug": "DCCj4YcE"
-            }
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ42YQjm/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ42YQjm"
+                        }
+                    }
+                }
+            ]
         },
         {
             "LIST_DATA": {
@@ -52,7 +59,7 @@
         }
     ],
     "seo": {
-        "title": "فروش پردیس فاز ۸پروژه طلیعه معماران در پردیس - ۲۱ شهریور ۱۴۰۳",
+        "title": "فروش پردیس فاز ۸پروژه طلیعه معماران در پردیس - ۲۹ شهریور ۱۴۰۳",
         "description": "آگهی پردیس فاز ۸پروژه طلیعه معماران در دیوار پردیس",
         "web_info": {
             "title": "پردیس فاز ۸پروژه طلیعه معماران",
@@ -68,8 +75,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "41211",
-        "business_type": "real-estate-business",
+        "business_ref": "clPHhlFd_wYxneNke",
+        "business_type": "premium-panel",
         "category": "apartment-sell",
         "city": "pardis-city",
         "credit": 0,
@@ -78,5 +85,6 @@
         "price": 3300000000,
         "rent": 0,
         "token": "gZ42YQjm"
-    }
+    },
+    "sc_time": 1728471180.6658208
 }

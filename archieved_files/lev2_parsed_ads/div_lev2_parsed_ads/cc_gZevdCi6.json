@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.745964,
+                        "longitude": 51.802975
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZevdCi6/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZevdCi6"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۱۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش های ۱۲۰ متری در پردیس - ۱۹ شهریور ۱۴۰۳",
+        "description": "آگهی فروش های ۱۲۰ متری در دیوار پردیس",
+        "web_info": {
+            "title": "فروش های ۱۲۰ متری",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "10-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "CfADJZHm_IcwJOYwU",
+        "business_type": "premium-panel",
+        "category": "house-villa-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 230000000,
+        "rent": 0,
+        "token": "gZevdCi6"
+    },
+    "sc_time": 1728471250.1646059
+}

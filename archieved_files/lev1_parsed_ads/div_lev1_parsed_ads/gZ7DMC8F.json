@@ -1,0 +1,200 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/2PkvheNSyge_qW2Qo03gzw/682edec7-4140-44ff-8038-0e6d049c3ea4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/sptJuYHrvH70o-SxjMxG4Q/c274c49c-2b3b-4b3b-838d-6e7a41498be2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/QFypzetIWGcASKNoEW_PqA/4afae515-8729-46ea-b183-e501b1866ea1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/oxMFT8aWhcW0jGB294Pr4A/9c064a86-7896-45a5-b56b-3de7705c28e8.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/ZlFVXCUTp2I-mFPAGFu77A/0a04f1d2-07c1-40cb-92c0-bc4c0c7fc89e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/zWeEwn-zYHvA0AzDcTnIsg/00c8204b-893b-455f-aa5a-f0c9e2e4bd92.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/EorJ7bAbXWP-IVUOXMVrqg/7c2c754e-7e93-4c8d-8b2f-605d281991ed.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/mwsPlSIQxSztu7zClh3CsQ/b14e2c3f-58b3-4c71-9619-e1eb7b1f4ee2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/8aAWN7r07jXOPkiOPgZDog/b79192fe-e8f7-4738-ae0d-c17df7d0a98a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/PZ6bd5WMb8vRhYm-ROyU-A/ff4843bb-c497-4c65-b98b-774e2bdea147.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/YifyKZeN7jOQJ0ZoGoCMGA/da8a79a3-150e-45c6-a32b-1d5c7154356f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/6WsnFfbnhIfE0B0IOhEG7Q/3d27723e-5ef8-4752-a15f-c222e76c2c05.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/nkc6mHRoaHCTmmrZVBXOHw/e54ef3c8-1303-42b4-8856-5f1d7e5d107f.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.749371293504,
+                        "longitude": 51.797900605085
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ7DMC8F/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ7DMC8F"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۲۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۸"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۱۰متربنا ۴۰ متر حیاط طبقه اول فاز ۲ محله۴ در پردیس - ۱۰ مهر ۱۴۰۳",
+        "description": "آگهی ۱۱۰متربنا ۴۰ متر حیاط طبقه اول فاز ۲ محله۴ در دیوار پردیس",
+        "web_info": {
+            "title": "۱۱۰متربنا ۴۰ متر حیاط طبقه اول فاز ۲ محله۴",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "01-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "yFQMAveP_lrjWwhpC",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 1350000000,
+        "district": "",
+        "image_count": 13,
+        "price": 0,
+        "rent": 0,
+        "token": "gZ7DMC8F"
+    },
+    "sc_time": 1728472394.1148763
+}

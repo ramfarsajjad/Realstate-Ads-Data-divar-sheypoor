@@ -1,0 +1,174 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/AFOTIlF7h3Bq53ozAkR-9A/2701036b-525b-4f7a-b7f3-1b426978d349.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/2pFoqBNkaEo0dAt15F7hWA/dc29e365-b7a9-4629-a8dd-2ec19b40c999.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mUV6Y_0wts2mDj2NvCQxZA/ec35b358-d59b-4b18-bac6-68cec52fdfd2.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/tkheKgIMbAdUT-gg6NDFZA/97d6afd8-352e-48d9-9c6c-13f0a2b78970.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/q0gjq3qsavVP3mKza2c-Mg/1dd50e3d-c26a-430c-ab77-941134bec743.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/KXjnpn_UQKV2HvhqrdcZQA/415eed5e-04a3-4127-b4cb-84415245e00f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ybcQzhaxdXNvTM7QKscUzw/964b989e-b8e8-46c5-98cb-d474f9befc96.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/InBI_uUxc7DvnzmpgjaYjg/10f9a643-e0a8-419e-9b0e-2e19560673fc.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/7df6I0st-fG41dUzgeHUpA/34f6524c-974b-4369-84d5-9f05575a9032.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.745591962617,
+                        "longitude": 51.795110696473
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن ندارد"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری ندارد"
+                        },
+                        {
+                            "title": "بالکن ندارد"
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZhL3VyY",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین ویلایی به دلخواه شما گرمابسرد دماوند در پردیس - ۲۱ شهریور ۱۴۰۳",
+        "description": "آگهی فروش زمین ویلایی به دلخواه شما گرمابسرد دماوند در دیوار پردیس",
+        "web_info": {
+            "title": "فروش زمین ویلایی به دلخواه شما گرمابسرد دماوند",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "12-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "house-villa-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 9,
+        "price": 150000000,
+        "rent": 0,
+        "token": "gZhL3VyY"
+    },
+    "sc_time": 1728471188.9554012
+}

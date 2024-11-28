@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.731045,
+                        "longitude": 51.74975
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZgXZZfg/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZgXZZfg"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۰۵"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۲"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۳"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز8  واحد 105 متری در پردیس - ۲۳ شهریور ۱۴۰۳",
+        "description": "آگهی فاز8  واحد 105 متری در دیوار پردیس",
+        "web_info": {
+            "title": "فاز8  واحد 105 متری",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "fxPsfxrC_JLNtlTtN",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 2120000000,
+        "rent": 0,
+        "token": "gZgXZZfg"
+    },
+    "sc_time": 1728472581.8066645
+}

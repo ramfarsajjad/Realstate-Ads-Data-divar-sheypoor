@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.773495,
+                        "longitude": 51.768707
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک پاشایی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "36403",
+                                "slug": "FhNawyNc"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۷"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره زون 5 بام در پردیس - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی زون 5 بام در دیوار پردیس",
+        "web_info": {
+            "title": "زون 5 بام",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "36403",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 100000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 10000000,
+        "token": "gZl3V06O"
+    },
+    "sc_time": 1728471642.7785265
+}

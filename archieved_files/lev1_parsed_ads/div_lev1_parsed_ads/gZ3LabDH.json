@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.74420744459,
+                        "longitude": 51.777719598666
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ3LabDH/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ3LabDH"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۰۰۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش ۳۰۰۰متر زمین با قابلیت ساخت سوله سند دار در پردیس - ۷ مهر ۱۴۰۳",
+        "description": "آگهی ۳۰۰۰متر زمین با قابلیت ساخت سوله سند دار در دیوار پردیس",
+        "web_info": {
+            "title": "۳۰۰۰متر زمین با قابلیت ساخت سوله سند دار",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش دفاتر صنعتی، کشاورزی و تجاری"
+        },
+        "register_date": "29-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "industry-agriculture-business-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "SUAybxFj_PQjdkqVX",
+        "business_type": "premium-panel",
+        "category": "industry-agriculture-business-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "gZ3LabDH"
+    },
+    "sc_time": 1728472267.9190118
+}

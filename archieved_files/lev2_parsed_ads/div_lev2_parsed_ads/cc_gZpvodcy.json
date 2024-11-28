@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.74159,
+                        "longitude": 51.8174
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZpvodcy/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZpvodcy"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۹۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۶"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره مجتمع اسکان فاز2 در پردیس - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی مجتمع اسکان فاز2 در دیوار پردیس",
+        "web_info": {
+            "title": "مجتمع اسکان فاز2",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ITeDUdbt_kbsHOyuD",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 100000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 12000000,
+        "token": "gZpvodcy"
+    },
+    "sc_time": 1728472087.3532622
+}

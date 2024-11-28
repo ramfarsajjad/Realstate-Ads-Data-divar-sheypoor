@@ -1,0 +1,109 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/GCX6TmUu6jN_ePuE5kjZgw/fb0098ea-b36c-4d36-9734-c40f8fd7c48b.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.7422,
+                        "longitude": 51.80275
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZAX4dh5/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZAX4dh5"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۸۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۸۰متر.ویلایی.شبستان ها.کلید نخورده در پردیس - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی ۱۸۰متر.ویلایی.شبستان ها.کلید نخورده در دیوار پردیس",
+        "web_info": {
+            "title": "۱۸۰متر.ویلایی.شبستان ها.کلید نخورده",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ خانه و ویلا"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "house-villa-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "hvoxcdEM_yLNzEYap",
+        "business_type": "premium-panel",
+        "category": "house-villa-rent",
+        "city": "pardis-city",
+        "credit": 1000000000,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 30000000,
+        "token": "gZAX4dh5"
+    },
+    "sc_time": 1728471101.4625897
+}

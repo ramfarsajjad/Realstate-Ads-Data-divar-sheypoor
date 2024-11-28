@@ -23,13 +23,20 @@
             }
         },
         {
-            "BUSINESS_SECTION": {
-                "title": "ملکاتو",
-                "image_url": "https://s100.divarcdn.com/static/images/real-estate/3tMDDvnZqBM0R73kf-H48Q.jpg",
-                "type": "REAL_ESTATE_AGENCY_PAGE",
-                "business_ref": "54401",
-                "slug": "K6890MJk"
-            }
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZofBzuv/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZofBzuv"
+                        }
+                    }
+                }
+            ]
         },
         {
             "LIST_DATA": {
@@ -86,8 +93,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "54401",
-        "business_type": "real-estate-business",
+        "business_ref": "NxHBxISh_hZGONIXp",
+        "business_type": "premium-panel",
         "category": "apartment-sell",
         "city": "pardis-city",
         "credit": 0,
@@ -97,5 +104,5 @@
         "rent": 0,
         "token": "gZofBzuv"
     },
-    "sc_time": 1726491209.0317657
+    "sc_time": 1728472020.9353724
 }

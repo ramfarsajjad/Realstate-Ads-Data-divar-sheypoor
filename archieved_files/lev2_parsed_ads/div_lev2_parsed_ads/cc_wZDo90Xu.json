@@ -1,0 +1,94 @@
+{
+    "sections": [
+        {
+            "IMAGE": [
+                "https://s100.divarcdn.com/static/photo/neda/post/1ynjw58PDEYlmzBNU7J9gA/dfe82fa6-6562-4c76-8925-4b3a0bffd804.jpg",
+                "https://s100.divarcdn.com/static/photo/neda/post/zg5K2HYE_CbYc7TpFctWag/2143c387-9609-4a31-929e-378e85f9f545.jpg"
+            ]
+        },
+        {
+            "MAP": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.74209776667654,
+                        "longitude": 51.80171419119358
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZDo90Xu/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZDo90Xu"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۲۰۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "بدون اتاق"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور ندارد",
+                    "پارکینگ ندارد",
+                    "انباری ندارد"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "خرید و فروش داخل پردیس فاز ۱۰ در پردیس - ۱۶ مهر ۱۴۰۳",
+        "description": "آگهی خرید و فروش داخل پردیس فاز ۱۰ در دیوار پردیس",
+        "web_info": {
+            "title": "خرید و فروش داخل پردیس فاز ۱۰",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "07-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "yvnMzOID_NQfSrPES",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 490000000,
+        "rent": 0,
+        "token": "wZDo90Xu"
+    },
+    "sc_time": 1728472507.9235504
+}

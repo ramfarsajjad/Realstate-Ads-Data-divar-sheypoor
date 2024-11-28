@@ -1,0 +1,111 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mj2xpD8TJY6mvLeVqm-Xtw/f6210007-9470-4a98-9aa8-432af845e721.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/gwTy5IPrZUnPNq2w9BpCeg/adeef1f3-2d87-413c-bcf8-eab722d98408.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.74368,
+                        "longitude": 51.813255
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZlfGi-7/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZlfGi-7"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۵۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری ندارد"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره پردیس فاز ۱ خیابان ابن سینا در پردیس - ۲۴ شهریور ۱۴۰۳",
+        "description": "آگهی پردیس فاز ۱ خیابان ابن سینا در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز ۱ خیابان ابن سینا",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ دفتر کار، اتاق اداری و مطب"
+        },
+        "register_date": "15-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "office-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "TwVBysLg_BEDkyAgv",
+        "business_type": "premium-panel",
+        "category": "office-rent",
+        "city": "pardis-city",
+        "credit": 250000000,
+        "district": "",
+        "image_count": 2,
+        "price": 0,
+        "rent": 15000000,
+        "token": "gZlfGi-7"
+    },
+    "sc_time": 1728471892.0129423
+}

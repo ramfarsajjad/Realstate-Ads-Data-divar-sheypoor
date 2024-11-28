@@ -1,0 +1,92 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/iFLWbr7WP7lKxaOKuplgcA/faaf7e30-acd3-4265-9031-218a8591793f.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.73386,
+                        "longitude": 51.749096
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZcL1opF/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZcL1opF"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۲۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "مغازه اجاره ۲۵ متر فاز۸ در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی مغازه اجاره ۲۵ متر فاز۸ در دیوار پردیس",
+        "web_info": {
+            "title": "مغازه اجاره ۲۵ متر فاز۸",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "07-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ESzyAVkp_PJeijAUe",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 300000000,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 6000000,
+        "token": "gZcL1opF"
+    },
+    "sc_time": 1728474811.0578585
+}

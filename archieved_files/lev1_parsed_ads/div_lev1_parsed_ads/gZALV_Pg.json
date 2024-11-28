@@ -1,0 +1,97 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Hgn2GAnL82MWCB2ZrtztSA/5a02d749-1131-4ad6-81d6-60894cbeba36.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/PdL3gSkSzLGWRooyFHbM9A/e5871a87-1649-4376-a773-461d1aa7a2f4.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.772038,
+                        "longitude": 51.76888
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZALV_Pg/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZALV_Pg"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۲۲"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس، فاز۱۱، زون۵، سند شخصی در پردیس - ۱۵ مهر ۱۴۰۳",
+        "description": "آگهی پردیس، فاز۱۱، زون۵، سند شخصی در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس، فاز۱۱، زون۵، سند شخصی",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش مغازه و غرفه"
+        },
+        "register_date": "17-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "shop-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "nJENJgmB_vUGQhEuW",
+        "business_type": "premium-panel",
+        "category": "shop-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 3900000000,
+        "rent": 0,
+        "token": "gZALV_Pg"
+    },
+    "sc_time": 1728472050.1755836
+}

@@ -1,0 +1,89 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 32.665833182756,
+                        "longitude": 51.657843589783
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "ایلیانو",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/5RtevWvPwDUARRFDmU4dhQ.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "43677",
+                                "slug": "QIiK8bx2"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۵"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش مغازه دوطبقه50+55 متری_ مسجد سید در اصفهان - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی مغازه دوطبقه50+55 متری_ مسجد سید در دیوار اصفهان",
+        "web_info": {
+            "title": "مغازه دوطبقه50+55 متری_ مسجد سید",
+            "district_persian": "بیدآباد",
+            "city_persian": "اصفهان",
+            "category_slug_persian": "فروش مغازه و غرفه"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "shop-sell",
+        "city": "isfahan"
+    },
+    "details": {
+        "business_ref": "43677",
+        "business_type": "real-estate-business",
+        "category": "shop-sell",
+        "city": "isfahan",
+        "credit": 0,
+        "district": "bidabad",
+        "image_count": 0,
+        "price": 24999999488,
+        "rent": 0,
+        "token": "gZpfF-zP"
+    },
+    "sc_time": 1726568561.169042
+}

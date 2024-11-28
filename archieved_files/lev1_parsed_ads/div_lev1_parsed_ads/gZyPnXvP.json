@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.743903344126,
+                        "longitude": 51.776084178163
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZyPnXvP/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZyPnXvP"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۵۰۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۵"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش ۵۰۰ متر سوله در سیاه سنگ در پردیس - ۱۵ مهر ۱۴۰۳",
+        "description": "آگهی ۵۰۰ متر سوله در سیاه سنگ در دیوار پردیس",
+        "web_info": {
+            "title": "۵۰۰ متر سوله در سیاه سنگ",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش دفاتر صنعتی، کشاورزی و تجاری"
+        },
+        "register_date": "25-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "industry-agriculture-business-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "TYETrnhG_fjZOfeMu",
+        "business_type": "premium-panel",
+        "category": "industry-agriculture-business-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 11000000512,
+        "rent": 0,
+        "token": "gZyPnXvP"
+    },
+    "sc_time": 1728472318.1085258
+}

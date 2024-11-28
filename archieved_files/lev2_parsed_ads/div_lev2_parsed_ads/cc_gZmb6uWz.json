@@ -1,0 +1,91 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.744144,
+                        "longitude": 51.794186
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZmb6uWz/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZmb6uWz"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۸۵"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۸"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۳"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی شده"
+                    }
+                ],
+                "benefit": [
+                    "پارکینگ",
+                    "انباری",
+                    "بالکن",
+                    "جنس کف سرامیک",
+                    "سرویس بهداشتی ایرانی و فرنگی",
+                    "سرمایش کولر آبی",
+                    "گرمایش شوفاژ",
+                    "تأمین‌کننده آب گرم پکیج"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره ویلایی،فاز۲ در پردیس - ۲۵ شهریور ۱۴۰۳",
+        "description": "آگهی اجاره ویلایی،فاز۲ در دیوار پردیس",
+        "web_info": {
+            "title": "اجاره ویلایی،فاز۲",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ خانه و ویلا"
+        },
+        "register_date": "16-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "house-villa-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "UGSmCyqB_hMqrAOvC",
+        "business_type": "premium-panel",
+        "category": "house-villa-rent",
+        "city": "pardis-city",
+        "credit": 1500000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 100000,
+        "token": "gZmb6uWz"
+    },
+    "sc_time": 1728471630.2025318
+}

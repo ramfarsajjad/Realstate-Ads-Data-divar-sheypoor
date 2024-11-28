@@ -1,0 +1,114 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/N_Stg57DfmRtilIrrLZ7NQ/35a0ec3e-9b6e-4108-bdf1-ffdaa8b4d40f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ru2f86ik3tjdBvI3CBDQkQ/bbf98831-1449-4d70-8e2b-37359cbb504e.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.746777,
+                        "longitude": 51.802864
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZvfjhlQ/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZvfjhlQ"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۲۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۲۵متر.فازدو.ویلایی در پردیس - ۹ مهر ۱۴۰۳",
+        "description": "آگهی ۱۲۵متر.فازدو.ویلایی در دیوار پردیس",
+        "web_info": {
+            "title": "۱۲۵متر.فازدو.ویلایی",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ خانه و ویلا"
+        },
+        "register_date": "23-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "house-villa-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "hvoxcdEM_yLNzEYap",
+        "business_type": "premium-panel",
+        "category": "house-villa-rent",
+        "city": "pardis-city",
+        "credit": 900000000,
+        "district": "",
+        "image_count": 2,
+        "price": 0,
+        "rent": 11000000,
+        "token": "gZvfjhlQ"
+    },
+    "sc_time": 1728474584.002032
+}

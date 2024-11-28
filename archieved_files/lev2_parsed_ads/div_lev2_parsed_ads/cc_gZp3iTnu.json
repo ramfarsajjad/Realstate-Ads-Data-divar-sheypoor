@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.744457,
+                        "longitude": 51.832516
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZp3iTnu/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZp3iTnu"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۷۵"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۴"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ],
+                "benefit": []
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره آپارتمان 2 خوابه سنبل فاز 3 در پردیس - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان 2 خوابه سنبل فاز 3 در دیوار پردیس",
+        "web_info": {
+            "title": "آپارتمان 2 خوابه سنبل فاز 3",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "rezkczdC_KwuvDrDk",
+        "business_type": "premium-panel",
+        "category": "apartment-rent",
+        "city": "pardis-city",
+        "credit": 100000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 10000000,
+        "token": "gZp3iTnu"
+    },
+    "sc_time": 1728471939.2529047
+}

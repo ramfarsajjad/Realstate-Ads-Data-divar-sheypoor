@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.773045,
+                        "longitude": 51.76887
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "املاک پاشایی",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "36403",
+                                "slug": "FhNawyNc"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۷"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش زون 2 تسویه کامل در پردیس - ۱۳ مهر ۱۴۰۳",
+        "description": "آگهی زون 2 تسویه کامل در دیوار پردیس",
+        "web_info": {
+            "title": "زون 2 تسویه کامل",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "09-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "36403",
+        "business_type": "real-estate-business",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 1900000000,
+        "rent": 0,
+        "token": "gZeTvxnf"
+    },
+    "sc_time": 1728471169.3471372
+}

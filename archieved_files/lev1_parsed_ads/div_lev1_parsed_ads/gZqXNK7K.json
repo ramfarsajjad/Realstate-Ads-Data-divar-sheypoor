@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/4fWL9y2o56DxixLhm1pAyQ/5bd2169f-0e82-4979-a3e0-8aac67c1fda4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/fYB98xv6dvL81Xr_m9KpFQ/f363b42c-2968-45d9-9252-bb614728f158.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mXoMWebPpf-2iyBX9QvmXw/3c4ea177-458f-42cb-8d11-5ff6c743232c.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.745987,
+                        "longitude": 51.802967
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZqXNK7K/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZqXNK7K"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۸۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش یک باب مغازه تجاری در پاساژ گلستان پردیس فاز2 در پردیس - ۲۱ شهریور ۱۴۰۳",
+        "description": "آگهی یک باب مغازه تجاری در پاساژ گلستان پردیس فاز2 در دیوار پردیس",
+        "web_info": {
+            "title": "یک باب مغازه تجاری در پاساژ گلستان پردیس فاز2",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش مغازه و غرفه"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-sell",
+        "cat3": "shop-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "VbvzCTpT_JnjWLmVm",
+        "business_type": "premium-panel",
+        "category": "shop-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 3,
+        "price": 4590000128,
+        "rent": 0,
+        "token": "gZqXNK7K"
+    },
+    "sc_time": 1728471304.646543
+}

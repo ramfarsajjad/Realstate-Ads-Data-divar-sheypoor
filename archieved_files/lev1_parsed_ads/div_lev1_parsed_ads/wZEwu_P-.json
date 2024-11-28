@@ -1,0 +1,72 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Mc-wmYKZNvxEzqyCwQc8sQ/dd663079-0f93-4aab-abc0-67788a4a86d6.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.747248818494,
+                        "longitude": 51.802659461615
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "wZEwu_P-",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "پروژه طلیعه معماران ارتا ۲۱ در پردیس",
+        "description": "آگهی پروژه طلیعه معماران ارتا ۲۱ در دیوار پردیس",
+        "web_info": {
+            "title": "پروژه طلیعه معماران ارتا ۲۱",
+            "city_persian": "پردیس",
+            "category_slug_persian": "پیش‌فروش ملک"
+        },
+        "register_date": "08-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "presell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "presell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 0,
+        "token": "wZEwu_P-"
+    },
+    "sc_time": 1728472327.6182306
+}

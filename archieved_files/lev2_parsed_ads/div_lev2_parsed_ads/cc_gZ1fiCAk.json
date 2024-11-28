@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.750429945432,
+                        "longitude": 51.798603503031
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ1fiCAk/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ1fiCAk"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۵۷"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۸۹"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "بدون اتاق"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور ندارد",
+                    "پارکینگ ندارد",
+                    "انباری ندارد"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش ۵۷ متر فاز ۲ محله ۴ فول در پردیس - ۱۱ مهر ۱۴۰۳",
+        "description": "آگهی ۵۷ متر فاز ۲ محله ۴ فول در دیوار پردیس",
+        "web_info": {
+            "title": "۵۷ متر فاز ۲ محله ۴ فول",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "27-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "pfktoQRp_lSvWtfPa",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 1300000000,
+        "rent": 0,
+        "token": "gZ1fiCAk"
+    },
+    "sc_time": 1728472510.9134808
+}

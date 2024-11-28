@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.743221455746,
+                        "longitude": 51.803524891345
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZD0IU-W/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZD0IU-W"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۷"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش آپارتمان در فاز ۱۱ پردیس در پردیس - ۸ مهر ۱۴۰۳",
+        "description": "آگهی فروش آپارتمان در فاز ۱۱ پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "فروش آپارتمان در فاز ۱۱ پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "30-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ZFFydaBB_amZBBPOA",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 2150000128,
+        "rent": 0,
+        "token": "wZD0IU-W"
+    },
+    "sc_time": 1728471891.8043687
+}

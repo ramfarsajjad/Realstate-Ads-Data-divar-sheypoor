@@ -1,0 +1,125 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/7XWtlE9L3b7vAAodEVRtgQ/fd96bcb3-eaa0-4a3a-abe4-8e2e026ca01a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/DKSI3u2JkMPH2EDYKgXhBA/00533d07-e9ef-45b2-ae00-007b88ab5253.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/sL6yyq7Kyuvc3JHwQWtPDw/e7b5a4a1-6227-45b2-9518-dd6830764511.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RpR_Wlca0nZvFmefzVqMew/ca378935-febf-4caa-9891-22f5851eae79.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/DtIMj8EkfTWq1DLrlAieSw/be14319c-5604-44ce-8efa-bd940522cdb7.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.719646,
+                        "longitude": 51.75638
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZdDMHwM/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZdDMHwM"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۴۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZdDMHwM",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره و فروش مغازه تجاری و اداری فاز ۸ پردیس در پردیس - ۱۸ شهریور ۱۴۰۳",
+        "description": "آگهی اجاره و فروش مغازه تجاری و اداری فاز ۸ پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "اجاره و فروش مغازه تجاری و اداری فاز ۸ پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "09-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "HOtRxIOy_IFckofiY",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 400000000,
+        "district": "",
+        "image_count": 5,
+        "price": 0,
+        "rent": 100000,
+        "token": "gZdDMHwM"
+    },
+    "sc_time": 1728471967.9179957
+}

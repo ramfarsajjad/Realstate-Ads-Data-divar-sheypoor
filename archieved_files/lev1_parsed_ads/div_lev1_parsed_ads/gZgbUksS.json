@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.764813584713,
+                        "longitude": 51.769096255302
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZgbUksS/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZgbUksS"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۲"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "رهن و اجاره مغازه فاز ۱۱ در پردیس - ۲۰ شهریور ۱۴۰۳",
+        "description": "آگهی رهن و اجاره مغازه فاز ۱۱ در دیوار پردیس",
+        "web_info": {
+            "title": "رهن و اجاره مغازه فاز ۱۱",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "11-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "cgEagrAL_THhXUbsP",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 5500000,
+        "token": "gZgbUksS"
+    },
+    "sc_time": 1728474636.6567554
+}

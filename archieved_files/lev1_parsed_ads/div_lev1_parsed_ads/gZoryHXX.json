@@ -25,17 +25,13 @@
             "section_name": "BUSINESS_SECTION",
             "widgets": [
                 {
-                    "widget_type": "EVENT_ROW",
+                    "widget_type": "LAZY_SECTION",
                     "data": {
-                        "title": "املاک مرکزی ۱۱ شعبه ۳",
-                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/fvibAVQ7hNtWVHOIFwEcYQ.jpg",
-                        "action": {
-                            "type": "REAL_ESTATE_AGENCY_PAGE",
-                            "payload": {
-                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
-                                "business_ref": "29815",
-                                "slug": "VVfZ0ntY"
-                            }
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZoryHXX/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZoryHXX"
                         }
                     }
                 }
@@ -82,7 +78,7 @@
         }
     ],
     "seo": {
-        "title": "فروش فاز ۱۱ ، طبقه ۴ ، عرصه تسویه در پردیس - ۲۶ شهریور ۱۴۰۳",
+        "title": "فروش فاز ۱۱ ، طبقه ۴ ، عرصه تسویه در پردیس - ۲۹ شهریور ۱۴۰۳",
         "description": "آگهی فاز ۱۱ ، طبقه ۴ ، عرصه تسویه در دیوار پردیس",
         "web_info": {
             "title": "فاز ۱۱ ، طبقه ۴ ، عرصه تسویه",
@@ -98,8 +94,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "29815",
-        "business_type": "real-estate-business",
+        "business_ref": "IJmZpuGG_nRGpILFw",
+        "business_type": "premium-panel",
         "category": "apartment-sell",
         "city": "pardis-city",
         "credit": 0,
@@ -109,5 +105,5 @@
         "rent": 0,
         "token": "gZoryHXX"
     },
-    "sc_time": 1726491204.4614706
+    "sc_time": 1728472025.976102
 }

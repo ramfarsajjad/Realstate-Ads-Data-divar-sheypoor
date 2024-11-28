@@ -1,0 +1,92 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/DfA_n2-7tQlDYpSrboWpZg/55f2d2c1-f632-46f0-b609-23c57c6a7111.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.7380695,
+                        "longitude": 51.7793069
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ5TWWZm/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ5TWWZm"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۵"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "۸۰متر مغازه_بر سیاهسنگ اجاره ای_تابلوخور_خرمدشت در پردیس - ۸ مهر ۱۴۰۳",
+        "description": "آگهی ۸۰متر مغازه_بر سیاهسنگ اجاره ای_تابلوخور_خرمدشت در دیوار پردیس",
+        "web_info": {
+            "title": "۸۰متر مغازه_بر سیاهسنگ اجاره ای_تابلوخور_خرمدشت",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ دفاتر صنعتی، کشاورزی و تجاری"
+        },
+        "register_date": "30-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "industry-agriculture-business-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "dusvNZzt_MhfIgZkk",
+        "business_type": "premium-panel",
+        "category": "industry-agriculture-business-rent",
+        "city": "pardis-city",
+        "credit": 200000000,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 17000000,
+        "token": "gZ5TWWZm"
+    },
+    "sc_time": 1728474812.0536487
+}

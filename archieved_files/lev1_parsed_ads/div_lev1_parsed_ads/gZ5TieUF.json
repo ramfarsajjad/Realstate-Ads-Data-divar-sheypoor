@@ -1,0 +1,150 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/kER1bLf5AdpDYTfzIDlUMA/85305f22-5803-4a66-8188-c260652482df.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/UbmNcVMZFwB0oXiLIz4KDA/d11b0efe-0ff9-4261-8e72-4df9418a32d3.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/XWl2h3gVByfh8dbScnPkFw/f2d9ad02-55df-4e4c-b9c5-cc20659f532d.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.740281697752,
+                        "longitude": 51.824147587871
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ5TieUF/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ5TieUF"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۹۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۴"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۳"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش پردیس ویلایی کلی یکجا _  دوبلکس ۳ خواب _ مناسب در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی پردیس ویلایی کلی یکجا _  دوبلکس ۳ خواب _ مناسب در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس ویلایی کلی یکجا _  دوبلکس ۳ خواب _ مناسب",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "30-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "yCzvLULS_MplBtrDt",
+        "business_type": "premium-panel",
+        "category": "house-villa-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 3,
+        "price": 11500000256,
+        "rent": 0,
+        "token": "gZ5TieUF"
+    },
+    "sc_time": 1728472572.8938365
+}

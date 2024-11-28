@@ -18,26 +18,34 @@ def section_cleaner(data, seckey):
             des_num1 = deslis(data, "section_name", seckey)
             if bool(dicfdr(data[des_num1]['widgets'], "widget_type",  "IMAGE_CAROUSEL")):
                 des_num2 = deslis(data[des_num1]['widgets'], "widget_type",  "IMAGE_CAROUSEL")
-                data[des_num1]['widgets'][des_num2]['data'].pop('@type', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('image_aspect_ratio', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('has_preview', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('has_thumbnails', None)
-                for i in data[des_num1]['widgets'][des_num2]['data']['items']:
-                    i['image'].pop('alt', None)
-                    i['image'].pop('thumbnail_url', None)
+                try:
+                    data[des_num1]['widgets'][des_num2]['data'].pop('@type', None)
+                    data[des_num1]['widgets'][des_num2]['data'].pop('image_aspect_ratio', None)
+                    data[des_num1]['widgets'][des_num2]['data'].pop('has_preview', None)
+                    data[des_num1]['widgets'][des_num2]['data'].pop('has_thumbnails', None)
+                    for i in data[des_num1]['widgets'][des_num2]['data']['items']:
+                        i['image'].pop('alt', None)
+                        i['image'].pop('thumbnail_url', None)
 
-                data[des_num1]['images'] = data[des_num1]['widgets'][des_num2]['data'].pop('items')
-                data[des_num1].pop('widgets')
+                    data[des_num1]['images'] = data[des_num1]['widgets'][des_num2]['data'].pop('items')
+                    data[des_num1].pop('widgets')
+                except:
+                    pass
 
     elif seckey == "BUSINESS_SECTION":
         if bool(dicfdr(data, "section_name", seckey)):
             des_num1 = deslis(data, "section_name", seckey)
             if bool(dicfdr(data, "section_name", seckey)):
                 des_num2 = deslis(data[des_num1]['widgets'], "widget_type",  "EVENT_ROW")
-                data[des_num1]['widgets'][des_num2]['data'].pop('@type', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('subtitle', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('type', None)
-                data[des_num1]['widgets'][des_num2]['data'].pop('last_notification_time', None)
+                if des_num2 == None:
+                    des_num2 = deslis(data[des_num1]['widgets'], "widget_type",  "LAZY_SECTION")
+                try:
+                    data[des_num1]['widgets'][des_num2]['data'].pop('@type')
+                    data[des_num1]['widgets'][des_num2]['data'].pop('subtitle')
+                    data[des_num1]['widgets'][des_num2]['data'].pop('type')
+                    data[des_num1]['widgets'][des_num2]['data'].pop('last_notification_time')
+                except:
+                    pass
                 
 
 

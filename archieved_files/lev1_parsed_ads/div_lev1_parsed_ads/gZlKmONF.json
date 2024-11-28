@@ -1,0 +1,162 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/esAumgECePmuPxq4gmyLqA/7c0e62ed-ffd8-45fa-900a-d2bc8d006cb5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/hi8b8JgZ8xpHvmHPTNSFfQ/f773a502-1343-42f5-a53d-05f763508cb9.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/see5NtC9MbTIzXakSwGbRA/285d702d-eb53-4d2f-bc72-450f3e2ef5e0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/nHic4wd7DlrvXt5i5b7c_w/5c5320f8-fdbe-4fa9-9314-4ac849f143b5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RbmObkS_XhewbRW1hO_rZQ/f3d2dcf1-639d-4dc0-8c4a-8b01f28344b3.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ZQwN_Wg7V_4eLkM6S4l8hg/13e5e4cf-313a-45e5-8866-71d9cd48f9fe.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/UT-ga7f-a6pANr7wrIs7Yg/0128fc95-24ca-43c7-b32f-d4aabd5491b4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/gl1LEnrk2mOkyIQ2RXH1dg/d0173f15-8dc7-4d90-a825-03374fcc1ae4.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/0ZUbs98g4EjAJicayBzPrA/025f6e45-8dee-426b-bffd-216e3c189982.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/mRR_im8C4jw5QvJpfGWskg/4a289288-00a6-484e-9299-a5258ca02dd8.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/KJ0Ro6eQs-q9BtIDu_bpkw/7ce0e062-bee7-47d0-90f7-484729a3de3f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/U20IxOZvDn2ZnBUoDb4PRw/acecde13-1f2e-4ad1-9ffc-70bb3e36bf2c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/GDiCA9HiDnbuQ9qqJu6vkA/0c85e06d-ef4b-48f4-b849-e3a83038a430.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/uED_REPAaUyvZehyaLPzKA/0f639990-e577-41de-8e00-7316cdf687ea.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/81A78mlnMBWRxvEkSQkZlQ/de9542e0-9760-4ca4-807b-fd4b8ad6594b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/QldV7UAdQreZHNdDWQrRSA/7d6d5069-0d1c-4fc6-8977-f472701b66a5.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/E1odp2tapKnEKIyiK2STUA/5926ddf9-2787-46b6-8724-02ef1e1e6070.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۵۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "اجاره",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "gZlKmONF",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "ویلای دنج جنگلی، ساحلی در کیاشهر",
+        "description": "آگهی ویلای دنج جنگلی، ساحلی در دیوار کیاشهر",
+        "web_info": {
+            "title": "ویلای دنج جنگلی، ساحلی",
+            "city_persian": "کیاشهر",
+            "category_slug_persian": "اجارهٔ کوتاه مدت ویلا و باغ"
+        },
+        "register_date": "27-8-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "temporary-rent",
+        "cat3": "villa",
+        "city": "kiashahr"
+    },
+    "details": {
+        "business_ref": "",
+        "business_type": "personal",
+        "category": "villa",
+        "city": "kiashahr",
+        "credit": 0,
+        "district": "",
+        "image_count": 17,
+        "price": 0,
+        "rent": 0,
+        "token": "gZlKmONF"
+    },
+    "sc_time": 1726568532.6605692
+}

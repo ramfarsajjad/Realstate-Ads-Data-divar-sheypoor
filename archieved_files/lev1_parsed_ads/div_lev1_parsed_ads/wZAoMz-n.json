@@ -1,0 +1,92 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/VtAP8C5dB_xB-bc91lXnQg/aeb86626-24c6-47a3-be9c-eb243260c0e1.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.744178463032,
+                        "longitude": 51.800828368281
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZAoMz-n/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZAoMz-n"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۳۳۳"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۳"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره مغازه بزرگ مناسب هایپر در پردیس - ۱۴ مهر ۱۴۰۳",
+        "description": "آگهی اجاره مغازه بزرگ مناسب هایپر در دیوار پردیس",
+        "web_info": {
+            "title": "اجاره مغازه بزرگ مناسب هایپر",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "05-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "MZkqVNLw_IcrJoowq",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 9999999,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 666666,
+        "token": "wZAoMz-n"
+    },
+    "sc_time": 1728472339.1480913
+}

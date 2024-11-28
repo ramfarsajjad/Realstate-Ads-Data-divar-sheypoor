@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.743835,
+                        "longitude": 51.795315
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZhvkhuG/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZhvkhuG"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۶۰۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "+۴"
+                    },
+                    {
+                        "title": "جهت ساختمان",
+                        "value": "شمالی"
+                    }
+                ],
+                "benefit": [
+                    "پارکینگ",
+                    "انباری",
+                    "بالکن"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز ۲ محله ۲ جای پردیس در پردیس - ۲۳ شهریور ۱۴۰۳",
+        "description": "آگهی فاز ۲ محله ۲ جای پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "فاز ۲ محله ۲ جای پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش خانه و ویلا"
+        },
+        "register_date": "14-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "house-villa-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "qkcTLkyq_UaXBlQag",
+        "business_type": "premium-panel",
+        "category": "house-villa-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 24999999488,
+        "rent": 0,
+        "token": "gZhvkhuG"
+    },
+    "sc_time": 1728472099.236164
+}

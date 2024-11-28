@@ -1,0 +1,80 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/TlHKyxB55uWOErwRr1LqcQ/0c6767a4-d532-4251-8439-bb8ca7c99e9b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/3QxZ5rzV-XQw7nj6i2H0yQ/f09738b1-e5a9-460c-bb8d-c660ae1c05b4.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.745958300000005,
+                        "longitude": 51.8033126
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZqTbRtI/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZqTbRtI"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "فروش یک واحد فاز ۵ S دوخوابه ویودار اولویت تحویل در پردیس",
+        "description": "آگهی فروش یک واحد فاز ۵ S دوخوابه ویودار اولویت تحویل در دیوار پردیس",
+        "web_info": {
+            "title": "فروش یک واحد فاز ۵ S دوخوابه ویودار اولویت تحویل",
+            "city_persian": "پردیس",
+            "category_slug_persian": "پیش‌فروش ملک"
+        },
+        "register_date": "19-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "presell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ngWEAVDw_wKTeurDT",
+        "business_type": "premium-panel",
+        "category": "presell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 2,
+        "price": 0,
+        "rent": 0,
+        "token": "gZqTbRtI"
+    },
+    "sc_time": 1728471245.400232
+}

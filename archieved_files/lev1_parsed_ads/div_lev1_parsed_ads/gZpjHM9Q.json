@@ -1,0 +1,64 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.728592,
+                        "longitude": 51.800396
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZpjHM9Q/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZpjHM9Q"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش زمین فاز ۴ دوکله ۱۹۳ متر جواز ساخت دوطبقه پیلوت در پردیس - ۱۲ مهر ۱۴۰۳",
+        "description": "آگهی زمین فاز ۴ دوکله ۱۹۳ متر جواز ساخت دوطبقه پیلوت در دیوار پردیس",
+        "web_info": {
+            "title": "زمین فاز ۴ دوکله ۱۹۳ متر جواز ساخت دوطبقه پیلوت",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "NJNUlBag_WvZIdRZv",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "gZpjHM9Q"
+    },
+    "sc_time": 1728471318.8784354
+}

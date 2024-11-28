@@ -1,0 +1,91 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/imx3cUHrPWTMNYJRUYC1mA/35ca3dc4-dc1e-41bd-b50f-1a1a76c1120b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/sd51W892CHsjCNk3YjRWAQ/286698e6-225f-4b14-a8ad-a6122b3fb216.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/AVRXwAh5y0hNiU3xAa0mxQ/9d542b4d-0f20-4f9d-961a-4a5d574d9d30.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/r0SQJJlXQDWzd7xS8kaL7w/e69975e6-9bb6-4e19-80ea-484cbb5f28a0.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.74453286484149,
+                        "longitude": 51.81866966536185
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ8bAEjW/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ8bAEjW"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": []
+        }
+    ],
+    "seo": {
+        "title": "فروش ۲۵۰متر زمین ویلایی شهر پردیس در پردیس - ۱۰ مهر ۱۴۰۳",
+        "description": "آگهی ۲۵۰متر زمین ویلایی شهر پردیس در دیوار پردیس",
+        "web_info": {
+            "title": "۲۵۰متر زمین ویلایی شهر پردیس",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش زمین و کلنگی"
+        },
+        "register_date": "01-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "plot-old",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "MRqliApC_ZOiLlVDw",
+        "business_type": "premium-panel",
+        "category": "plot-old",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 4,
+        "price": 15000000512,
+        "rent": 0,
+        "token": "gZ8bAEjW"
+    },
+    "sc_time": 1728471180.3860204
+}

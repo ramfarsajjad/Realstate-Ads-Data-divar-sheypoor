@@ -1,0 +1,102 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.755730292186975,
+                        "longitude": 51.759901222985775
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ-7OytE/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ-7OytE"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۸۵"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۲"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "تعداد واحد در طبقه",
+                        "value": "۴"
+                    },
+                    {
+                        "title": "سند",
+                        "value": "سایر"
+                    },
+                    {
+                        "title": "جهت ساختمان",
+                        "value": "جنوبی"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری ندارد",
+                    "بالکن ",
+                    "جنس کف سرامیک"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش واحد ۸۵ متری در پردیس - ۱۲ مهر ۱۴۰۳",
+        "description": "آگهی فروش واحد ۸۵ متری در دیوار پردیس",
+        "web_info": {
+            "title": "فروش واحد ۸۵ متری",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "03-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "GYSAttjA_KdYeRfHx",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 1900000000,
+        "rent": 0,
+        "token": "gZ-7OytE"
+    },
+    "sc_time": 1728474636.588336
+}

@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.737122071963,
+                        "longitude": 51.820522185215
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZrLfc3B/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZrLfc3B"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۱۳۰"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۹۳"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی نشده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور",
+                    "پارکینگ",
+                    "انباری"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز ۲ پردیس_سند تک برگ_مجتمع سپیدار در پردیس - ۲۹ شهریور ۱۴۰۳",
+        "description": "آگهی فاز ۲ پردیس_سند تک برگ_مجتمع سپیدار در دیوار پردیس",
+        "web_info": {
+            "title": "فاز ۲ پردیس_سند تک برگ_مجتمع سپیدار",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "20-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "FxwCwpkA_tiGtlJcC",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 3500000000,
+        "rent": 0,
+        "token": "gZrLfc3B"
+    },
+    "sc_time": 1728471690.0861518
+}

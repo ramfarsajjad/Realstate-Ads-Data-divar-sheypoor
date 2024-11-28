@@ -1,0 +1,154 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/yJLtQeJoR7-5EVnsc3Qhlg/9e4ca558-1d80-4d35-9f25-86a83ea3dc9f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/2xNXF-lUTCetQRHkdu9diQ/e3715e12-16dd-4459-97c2-5a5c458ecfc1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/Oc7q0NK8EvyIdDnZNCSlhQ/8d7ada60-9e6f-4be6-bb13-edfa63f50b0b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/xZXZGPc-C4PcpHTF45ustg/321a9543-7c0d-49c4-9c46-cd4a8669dd19.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/iAFVBRLeadvXikhEt3z-_w/91ea0179-ce8f-475f-89b1-29d232124e1c.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/eAAyMw_bTIITYbYFbSg9LQ/22ca0cab-eb81-45af-993c-50d1af1d9355.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZzHBgco/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZzHBgco"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۳۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "بالکن",
+                            "available": true
+                        },
+                        {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره ۱۳۰ متر دو خوابه در پردیس - ۳ مهر ۱۴۰۳",
+        "description": "آگهی ۱۳۰ متر دو خوابه در دیوار پردیس",
+        "web_info": {
+            "title": "۱۳۰ متر دو خوابه",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ خانه و ویلا"
+        },
+        "register_date": "25-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "house-villa-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "whFeEebG_tGtjxjBF",
+        "business_type": "premium-panel",
+        "category": "house-villa-rent",
+        "city": "pardis-city",
+        "credit": 500000000,
+        "district": "",
+        "image_count": 6,
+        "price": 0,
+        "rent": 15000000,
+        "token": "gZzHBgco"
+    },
+    "sc_time": 1728474646.1533885
+}

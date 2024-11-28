@@ -1,0 +1,109 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/GF8Z9PCHPF5m629qGcWMuw/b111ec8f-ef46-4ae3-99db-c8f0155c160e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/2ADNbJ2j46j4IA7bH5j3FQ/854929b0-b03d-4076-b934-874adc67728a.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/fSNB-6LMDJ5U6h6S1c6TSw/7c76bb4e-a5ba-41d2-a788-bee7d7270298.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/neda/post/J3AWPnuCCLgdv3jq6ZNQag/6eff5197-c223-402e-a4fa-d46eb9f8f9c9.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.726143355961376,
+                        "longitude": 51.778642080553965
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/wZBkR0Od/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "wZBkR0Od"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۶۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۱"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "بدون اتاق"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره سوله کارگاه ۱۶۰ متر سیاهسنگ در پردیس - ۱۷ مهر ۱۴۰۳",
+        "description": "آگهی سوله کارگاه ۱۶۰ متر سیاهسنگ در دیوار پردیس",
+        "web_info": {
+            "title": "سوله کارگاه ۱۶۰ متر سیاهسنگ",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ دفاتر صنعتی، کشاورزی و تجاری"
+        },
+        "register_date": "05-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "industry-agriculture-business-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "yYnpSNuN_qZDWdIwv",
+        "business_type": "premium-panel",
+        "category": "industry-agriculture-business-rent",
+        "city": "pardis-city",
+        "credit": 150000000,
+        "district": "",
+        "image_count": 4,
+        "price": 0,
+        "rent": 25000000,
+        "token": "wZBkR0Od"
+    },
+    "sc_time": 1728471307.7105787
+}

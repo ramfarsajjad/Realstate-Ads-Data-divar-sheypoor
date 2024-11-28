@@ -28,13 +28,20 @@
             }
         },
         {
-            "BUSINESS_SECTION": {
-                "title": "املاک امید",
-                "image_url": "https://s100.divarcdn.com/static/images/real-estate/fCm9WjEzZO1Jo3Oys0uRZw.jpg",
-                "type": "REAL_ESTATE_AGENCY_PAGE",
-                "business_ref": "41211",
-                "slug": "DCCj4YcE"
-            }
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZAfcJHQ/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZAfcJHQ"
+                        }
+                    }
+                }
+            ]
         },
         {
             "LIST_DATA": {
@@ -57,7 +64,7 @@
         }
     ],
     "seo": {
-        "title": "اجاره پردیس فاز ۸ شخصی ساز محله یک در پردیس - ۲۱ شهریور ۱۴۰۳",
+        "title": "اجاره پردیس فاز ۸ شخصی ساز محله یک در پردیس - ۱ مهر ۱۴۰۳",
         "description": "آگهی پردیس فاز ۸ شخصی ساز محله یک در دیوار پردیس",
         "web_info": {
             "title": "پردیس فاز ۸ شخصی ساز محله یک",
@@ -73,8 +80,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "41211",
-        "business_type": "real-estate-business",
+        "business_ref": "clPHhlFd_wYxneNke",
+        "business_type": "premium-panel",
         "category": "apartment-rent",
         "city": "pardis-city",
         "credit": 700000000,
@@ -83,5 +90,6 @@
         "price": 0,
         "rent": 0,
         "token": "gZAfcJHQ"
-    }
+    },
+    "sc_time": 1728472195.8860219
 }

@@ -85,17 +85,13 @@
             "section_name": "BUSINESS_SECTION",
             "widgets": [
                 {
-                    "widget_type": "EVENT_ROW",
+                    "widget_type": "LAZY_SECTION",
                     "data": {
-                        "title": "آذر",
-                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/RbNfTF9952XH849ZUJd_rw.jpg",
-                        "action": {
-                            "type": "REAL_ESTATE_AGENCY_PAGE",
-                            "payload": {
-                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
-                                "business_ref": "40847",
-                                "slug": "Hi2puvZM"
-                            }
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZJ1eENE/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZJ1eENE"
                         }
                     }
                 }
@@ -143,6 +139,13 @@
                             "data": {
                                 "title": "جهت ساختمان",
                                 "value": "جنوبی"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "وضعیت واحد",
+                                "value": "بازسازی نشده"
                             }
                         },
                         {
@@ -214,6 +217,10 @@
                             "available": true
                         },
                         {
+                            "title": "وضعیت واحد",
+                            "value": "بازسازی نشده"
+                        },
+                        {
                             "title": "جهت ساختمان",
                             "value": "جنوبی"
                         },
@@ -231,7 +238,7 @@
         }
     ],
     "seo": {
-        "title": "فروش پردیس فاز۱۱ شهرک نوساز غرق در نور_طبقه ۱۱ در پردیس - ۲۴ شهریور ۱۴۰۳",
+        "title": "فروش پردیس فاز۱۱ شهرک نوساز غرق در نور_طبقه ۱۱ در پردیس - ۱۸ مهر ۱۴۰۳",
         "description": "آگهی پردیس فاز۱۱ شهرک نوساز غرق در نور_طبقه ۱۱ در دیوار پردیس",
         "web_info": {
             "title": "پردیس فاز۱۱ شهرک نوساز غرق در نور_طبقه ۱۱",
@@ -247,15 +254,16 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "40847",
-        "business_type": "real-estate-business",
+        "business_ref": "aBpSHpZd_MdSMRnWL",
+        "business_type": "premium-panel",
         "category": "apartment-sell",
         "city": "pardis-city",
         "credit": 0,
         "district": "",
         "image_count": 13,
-        "price": 2449999872,
+        "price": 2270000128,
         "rent": 0,
         "token": "gZJ1eENE"
-    }
+    },
+    "sc_time": 1728471826.1840153
 }

@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.721906963345,
+                        "longitude": 51.782000193661
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ-rHh6V/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ-rHh6V"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۱۰۰۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۸"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره 4دیواری در سیاه‌سنگ انشعابات کامل باسویت در پردیس - ۱۲ مهر ۱۴۰۳",
+        "description": "آگهی اجاره 4دیواری در سیاه‌سنگ انشعابات کامل باسویت در دیوار پردیس",
+        "web_info": {
+            "title": "اجاره 4دیواری در سیاه‌سنگ انشعابات کامل باسویت",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ دفاتر صنعتی، کشاورزی و تجاری"
+        },
+        "register_date": "03-10-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "industry-agriculture-business-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "puSgHRtO_lvUlpQEp",
+        "business_type": "premium-panel",
+        "category": "industry-agriculture-business-rent",
+        "city": "pardis-city",
+        "credit": 300000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 31000000,
+        "token": "gZ-rHh6V"
+    },
+    "sc_time": 1728471881.3454607
+}

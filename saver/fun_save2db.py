@@ -51,7 +51,7 @@ def save2db(real_state):
                     "business_type","image","build_date","room","meterage",
                     "location","elevator","parking", "storage",
                     "unitpf","tabaghe", "sanad","jahat","vaziat", "balkon",
-                    "wc", "jenskaff", "cooler", "heater", "tamin_hot_water"]
+                    "wc", "jenskaff", "cooler", "heater", "tamin_hot_water", "expired_date"]
 
         real_state = json.loads(real_state)
         columns = real_state.keys()

@@ -1,0 +1,73 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/Y1kf-TFWTnYMnyySSK0U1w/486cba16-2814-4afa-acf5-460ae322ae3a.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.746136,
+                        "longitude": 51.804276
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZbyXOB0/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZbyXOB0"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "آپارتمان فاز ۹ در پردیس",
+        "description": "آگهی آپارتمان فاز ۹ در دیوار پردیس",
+        "web_info": {
+            "title": "آپارتمان فاز ۹",
+            "city_persian": "پردیس",
+            "category_slug_persian": "پیش‌فروش ملک"
+        },
+        "register_date": "19-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "presell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ZwUDzgxy_dWorAhrt",
+        "business_type": "premium-panel",
+        "category": "presell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 1,
+        "price": 0,
+        "rent": 0,
+        "token": "gZbyXOB0"
+    },
+    "sc_time": 1728472677.5037796
+}

@@ -1,0 +1,77 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.7709963,
+                        "longitude": 51.7692837
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZvf_xst/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZvf_xst"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۳۱"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۴۰۰"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    }
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "اجاره مغازه ۳۱ متری در پردیس - ۳ مهر ۱۴۰۳",
+        "description": "آگهی مغازه ۳۱ متری در دیوار پردیس",
+        "web_info": {
+            "title": "مغازه ۳۱ متری",
+            "city_persian": "پردیس",
+            "category_slug_persian": "اجارهٔ مغازه و غرفه"
+        },
+        "register_date": "23-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "commercial-rent",
+        "cat3": "shop-rent",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "BqEdrNtI_TwnrPFNX",
+        "business_type": "premium-panel",
+        "category": "shop-rent",
+        "city": "pardis-city",
+        "credit": 100000000,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 9000000,
+        "token": "gZvf_xst"
+    },
+    "sc_time": 1728471182.8270192
+}

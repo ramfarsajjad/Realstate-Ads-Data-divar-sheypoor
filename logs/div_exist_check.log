@@ -1,0 +1,88 @@
+2024-09-17 14:30:23,564 - ERROR - CAN NOT  INESERT EXPIRED DATE!
+ERORR:
+Traceback (most recent call last):
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 57, in <module>
+    cur.execute(f"""UPDATE div_table
+psycopg2.errors.SyntaxError: syntax error at or near "where"
+LINE 3:                                 where token = gZdTnEtc
+                                        ^
+
+2024-09-17 14:34:30,588 - ERROR - CAN NOT  INESERT EXPIRED DATE!
+ERORR:
+Traceback (most recent call last):
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 57, in <module>
+    cur.execute(f"""UPDATE div_table
+psycopg2.errors.SyntaxError: syntax error at or near "where"
+LINE 3:                                 where token = gZdTnEtc;
+                                        ^
+
+2024-09-17 14:37:47,480 - ERROR - CAN NOT  INESERT EXPIRED DATE!
+ERORR:
+Traceback (most recent call last):
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 57, in <module>
+    cur.execute(f"UPDATE div_table SET expired_date = {exp_date} WHERE token = {row[0]};")
+psycopg2.errors.SyntaxError: syntax error at or near "WHERE"
+LINE 1: UPDATE div_table SET expired_date =  WHERE token = gZdTnEtc;
+                                             ^
+
+2024-09-17 15:20:41,933 - ERROR - CAN NOT  INESERT EXPIRED DATE!
+ERORR:
+Traceback (most recent call last):
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 57, in <module>
+    cur.execute("""UPDATE div_table
+TypeError: function takes at most 2 arguments (3 given)
+2024-09-17 15:32:56,479 - ERROR - CAN NOT  INESERT EXPIRED DATE!
+ERORR:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 383, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1017, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x71deadf41150>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.divar.ir', port=443): Max retries exceeded with url: /v8/posts-v2/web/gZpflICo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x71deadf41150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 56, in <module>
+    exp_date = div_exck(row[0])
+  File "/home/sjd/Documents/Realstate-Ads-Data-divar-sheypoor/existcheck/div_existck.py", line 29, in div_exck
+    response = requests.get(url)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.divar.ir', port=443): Max retries exceeded with url: /v8/posts-v2/web/gZpflICo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x71deadf41150>: Failed to establish a new connection: [Errno 111] Connection refused'))

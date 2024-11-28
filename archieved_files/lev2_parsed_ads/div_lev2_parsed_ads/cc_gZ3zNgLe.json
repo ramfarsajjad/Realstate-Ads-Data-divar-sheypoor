@@ -1,0 +1,106 @@
+{
+    "sections": [
+        {
+            "MAP": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.74410715248655,
+                        "longitude": 51.829767974317946
+                    },
+                    "radius": 500
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZ3zNgLe/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZ3zNgLe"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "LIST_DATA": {
+                "Property": [
+                    {
+                        "title": "متراژ",
+                        "value": "۷۶"
+                    },
+                    {
+                        "title": "ساخت",
+                        "value": "۱۳۸۹"
+                    },
+                    {
+                        "title": "اتاق",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "تعداد واحد در طبقه",
+                        "value": "۲"
+                    },
+                    {
+                        "title": "سند",
+                        "value": "سایر"
+                    },
+                    {
+                        "title": "جهت ساختمان",
+                        "value": "جنوبی"
+                    },
+                    {
+                        "title": "وضعیت واحد",
+                        "value": "بازسازی شده"
+                    }
+                ],
+                "benefit": [
+                    "آسانسور ندارد",
+                    "پارکینگ",
+                    "انباری",
+                    "بالکن ",
+                    "جنس کف سرامیک",
+                    "سرویس بهداشتی ایرانی و فرنگی",
+                    "سرمایش کولر آبی",
+                    "گرمایش شوفاژ",
+                    "تأمین‌کننده آب گرم پکیج"
+                ]
+            }
+        }
+    ],
+    "seo": {
+        "title": "فروش 76متر 2خواب فاز3 خیابان معلم _کد۳۰۷ _عرفان رحیمی در پردیس - ۸ مهر ۱۴۰۳",
+        "description": "آگهی 76متر 2خواب فاز3 خیابان معلم _کد۳۰۷ _عرفان رحیمی در دیوار پردیس",
+        "web_info": {
+            "title": "76متر 2خواب فاز3 خیابان معلم _کد۳۰۷ _عرفان رحیمی",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "29-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "mXdVpueJ_NYgJDsob",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 3550000128,
+        "rent": 0,
+        "token": "gZ3zNgLe"
+    },
+    "sc_time": 1728472088.7910597
+}

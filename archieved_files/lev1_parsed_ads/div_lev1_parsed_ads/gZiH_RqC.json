@@ -1,0 +1,142 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/videos/thumbnails/93322ac6-67f7-4754-99d6-8ec1cc46e9ad.jpg"
+                    },
+                    "video_url": "https://s100.divarcdn.com/static/videos/93322ac6-67f7-4754-99d6-8ec1cc46e9ad.mp4"
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/NQf1HkKYCz56fjJFNujvaA/11AC6B4D-AF10-4B8E-BFAF-743A445527BC.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/3IJ_FvjT6EJWVRVj0QIgBg/17406D30-E7DC-4EE3-BEA0-4A177C23FFAE.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/rNHh7jT6pKCw4PiIao3dQQ/17293EB0-D9D0-4C48-BD24-EDE676E20897.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/eR9VYDNxIgg9PRZVdrQF-Q/393E6147-D374-4A7D-A4CC-C88325C8040B.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/RNAUALIzLADzJ--jCqOAlA/535BC122-2DDE-416E-AC8B-9F244AD94A46.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/4PujONUY4vgH6X5i4xN5Lg/DCDB1EAF-2F6D-4F8D-95E2-610EB99850C0.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "type": "FUZZY",
+                "fuzzy_data": {
+                    "point": {
+                        "latitude": 35.771745535583,
+                        "longitude": 51.767692964801
+                    },
+                    "radius": 300
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZiH_RqC/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZiH_RqC"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۸۷"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۴۰۰"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۲"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "option": [
+                        {
+                            "title": "آسانسور",
+                            "available": true
+                        },
+                        {
+                            "title": "پارکینگ",
+                            "available": true
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "فروش فاز۱۱پردیس_فول لاکچری_ خیابان فرزانه_عرصه تسویه در پردیس - ۲۲ شهریور ۱۴۰۳",
+        "description": "آگهی فاز۱۱پردیس_فول لاکچری_ خیابان فرزانه_عرصه تسویه در دیوار پردیس",
+        "web_info": {
+            "title": "فاز۱۱پردیس_فول لاکچری_ خیابان فرزانه_عرصه تسویه",
+            "city_persian": "پردیس",
+            "category_slug_persian": "فروش آپارتمان"
+        },
+        "register_date": "13-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-sell",
+        "cat3": "apartment-sell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "cxXKCWdh_bZcexPYg",
+        "business_type": "premium-panel",
+        "category": "apartment-sell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 6,
+        "price": 3150000128,
+        "rent": 0,
+        "token": "gZiH_RqC"
+    },
+    "sc_time": 1728474638.57539
+}

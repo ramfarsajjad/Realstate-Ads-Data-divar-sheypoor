@@ -1,0 +1,220 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/U34Fzd654v8j92YIMswh0A/1408c0bc-069b-4683-8053-20e3ca900f3e.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/6Rpgw6hbbxYAeT1ACfCmBw/659b0638-3e5a-43fc-b611-e5dd52a1a6a1.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/MG1mqCgnSuH1cnTDV8Et1A/f9bc7260-16d0-49ac-b622-b6c0520212a0.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/3IIWulOvwTIo9nrCDxFAKg/214c6212-b16d-42ad-9c4b-0d3f4256fa66.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/9wvQbRtSAfokHqbndgIl8g/481cd240-5eea-4015-a56d-4e6875ab512b.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/ak3xsPfAEBLgHtb-mMm01w/5448afad-5ef6-4cb2-9451-2823e0f54034.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/DyJlBS7zO8OqcG5TcnEGTw/16f48154-6400-488a-b4fe-f8a8d66798be.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.6987,
+                        "longitude": 51.36986
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "گروه مشاورین آروان",
+                        "image_url": "https://s100.divarcdn.com/static/images/real-estate/-uQFAdC_PsBoVL8ivWVikw.jpg",
+                        "action": {
+                            "type": "REAL_ESTATE_AGENCY_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
+                                "business_ref": "25499",
+                                "slug": "E8zQutwd"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "GROUP_INFO_ROW",
+                    "items": [
+                        {
+                            "title": "متراژ",
+                            "value": "۵۰"
+                        },
+                        {
+                            "title": "ساخت",
+                            "value": "۱۳۹۵"
+                        },
+                        {
+                            "title": "اتاق",
+                            "value": "۱"
+                        }
+                    ]
+                },
+                {
+                    "widget_type": "GROUP_FEATURE_ROW",
+                    "possibilty": [
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "تعداد واحد در طبقه",
+                                "value": "۱"
+                            }
+                        },
+                        {
+                            "widget_type": "UNEXPANDABLE_ROW",
+                            "data": {
+                                "title": "جهت ساختمان",
+                                "value": "جنوبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "آسانسور ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "پارکینگ ندارد"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "انباری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "بالکن "
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "جنس کف سرامیک"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرویس بهداشتی ایرانی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "سرمایش کولر آبی"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "گرمایش بخاری"
+                            }
+                        },
+                        {
+                            "widget_type": "FEATURE_ROW",
+                            "data": {
+                                "title": "تأمین‌کننده آب گرم آبگرم‌کن"
+                            }
+                        }
+                    ],
+                    "option": [
+                        {
+                            "title": "آسانسور ندارد"
+                        },
+                        {
+                            "title": "پارکینگ ندارد"
+                        },
+                        {
+                            "title": "انباری",
+                            "available": true
+                        },
+                        {
+                            "title": "جهت ساختمان",
+                            "value": "جنوبی"
+                        },
+                        {
+                            "title": "تعداد واحد در طبقه",
+                            "value": "۱"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "seo": {
+        "title": "اجاره آپارتمان50مترطبقه2 انباری بالکن تک واحدی در تهران - ۲۷ شهریور ۱۴۰۳",
+        "description": "آگهی آپارتمان50مترطبقه2 انباری بالکن تک واحدی در دیوار تهران",
+        "web_info": {
+            "title": "آپارتمان50مترطبقه2 انباری بالکن تک واحدی",
+            "district_persian": "آذربایجان",
+            "city_persian": "تهران",
+            "category_slug_persian": "اجارهٔ آپارتمان"
+        },
+        "register_date": "18-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "residential-rent",
+        "cat3": "apartment-rent",
+        "city": "tehran"
+    },
+    "details": {
+        "business_ref": "25499",
+        "business_type": "real-estate-business",
+        "category": "apartment-rent",
+        "city": "tehran",
+        "credit": 150000000,
+        "district": "azarbaijan",
+        "image_count": 7,
+        "price": 0,
+        "rent": 8000000,
+        "token": "gZprzuiZ"
+    },
+    "sc_time": 1726568546.2841725
+}

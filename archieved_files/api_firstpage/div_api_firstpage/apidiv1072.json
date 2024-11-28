@@ -1,0 +1,52 @@
+{
+    "action_log": {
+        "server_side_info": {
+            "item_type": {
+                "type": "POST_LIST_LOAD_PAGE"
+            },
+            "info": {
+                "@type": "type.googleapis.com/action_log.PostListLoadPageInfo",
+                "cities": [
+                    "1767"
+                ],
+                "current_tab": "default",
+                "search_data": {
+                    "form_data_json": "{\"data\":{\"category\":{\"str\":{\"value\":\"real-estate\"}}}}",
+                    "server_payload_json": "{\"@type\":\"type.googleapis.com/widgets.SearchData.ServerPayload\",\"additional_form_data\":{\"data\":{\"sort\":{\"str\":{\"value\":\"sort_date\"}}}}}",
+                    "cities": [
+                        "1767"
+                    ]
+                },
+                "page": 282,
+                "last_post_date_epoch": "-62135596800000000",
+                "search_id": "751ce62874eda70ee5a72d2e292e8ba5",
+                "search_uid": "b9d21a49-88e0-4937-9e29-01bc4635b658",
+                "source_view": "UNKNOWN",
+                "jli": {
+                    "category": {
+                        "value": "real-estate"
+                    },
+                    "cities": [
+                        "1767"
+                    ],
+                    "sort": {
+                        "value": "sort_date"
+                    }
+                },
+                "search_layer": "fulltext_t1"
+            }
+        },
+        "enabled": true
+    },
+    "pagination": {
+        "data": {
+            "@type": "type.googleapis.com/post_list.PaginationData",
+            "last_post_date": "0001-01-01T00:00:00Z",
+            "page": 283,
+            "layer_page": 1,
+            "layer_id": 1,
+            "search_uid": "b9d21a49-88e0-4937-9e29-01bc4635b658"
+        }
+    },
+    "search_id": "751ce62874eda70ee5a72d2e292e8ba5"
+}

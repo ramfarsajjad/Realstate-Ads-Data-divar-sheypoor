@@ -1,0 +1,155 @@
+{
+    "sections": [
+        {
+            "section_name": "IMAGE",
+            "images": [
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/LQoewrPnYMabxED5OKMiJg/edb50cff-6a10-49df-b096-7a45a944f6f3.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/sSQoElVU9VYZILcvq5q5DA/08ecfaa7-155a-42f9-ad8b-3195843bcc94.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/vROoheqaL26mTqoLZkwuYA/7dd49fbb-a37a-416c-9eb7-cbbcea037acf.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/lcQdklUEHo5CWKPIER05UQ/08f788d3-8e2e-45e7-9c51-1a02e2861431.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/TfvdxtZwe74b9zTUIiFe8w/b0bb2597-02f4-4cf7-b62a-4d10495e4595.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/cZn82QRjALv5an1qszYITA/b11b35d3-56d7-4336-874f-7cff3347a927.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/PsE1RNxnC2Ndv72H92S8jA/83e275e0-05db-4962-bfe7-a88c91514e9f.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/O-TmQ2w1k8sxUqYcsY51xw/e2215019-dc2b-4381-be8a-edc40e388a33.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/c9pn1pcNjzBN5vaLe17ffQ/5166c214-0f67-4632-b708-99bbfe24b1de.jpg"
+                    }
+                },
+                {
+                    "image": {
+                        "url": "https://s100.divarcdn.com/static/photo/afra/post/FuWjBfG6Ktjnxqj0HX6vDQ/741e5c6d-631d-463d-a9a9-e461d845caa9.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.LazySectionData",
+                        "rest_request_path": "/v1/open-platform/addons/lazy",
+                        "grpc_request_path": "/addons.Addons/GetLazyAddons",
+                        "request_data": {
+                            "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+                            "token": "AY6OyYZ2",
+                            "source": "POST_APPROVED"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.744392,
+                        "longitude": 51.784702
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "EVENT_ROW",
+                    "data": {
+                        "title": "فروشگاه استیل آذین",
+                        "image_url": "https://s100.divarcdn.com/static/images/marketplace/VKc_LpQnp4jqv5oYI3Yb3Q.jpg",
+                        "action": {
+                            "type": "MARKETPLACE_STORE_LANDING_PAGE",
+                            "payload": {
+                                "@type": "type.googleapis.com/widgets.MarketplaceStoreLandingPagePayload",
+                                "slug": "stil-azin3",
+                                "name": "استیل آذین"
+                            }
+                        }
+                    }
+                },
+                {
+                    "widget_type": "TITLE_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.TitleRowData",
+                        "text": "خرید حضوری از فروشگاه",
+                        "text_color": "TEXT_PRIMARY"
+                    }
+                },
+                {
+                    "widget_type": "DESCRIPTION_ROW",
+                    "data": {
+                        "@type": "type.googleapis.com/widgets.DescriptionRowData",
+                        "text": "آدرس: پردیس.خرمدشت.بین لاله و سیاه سنگ فروشگاه استیل آذین  266",
+                        "is_primary": true
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "MESSAGE"
+        }
+    ],
+    "seo": {
+        "title": "نرده و حفاظ استیل در پردیس",
+        "description": "آگهی نرده و حفاظ استیل در دیوار پردیس",
+        "web_info": {
+            "title": "نرده و حفاظ استیل",
+            "city_persian": "پردیس",
+            "category_slug_persian": "مصالح و تجهیزات ساختمان"
+        },
+        "register_date": "15-10-2024"
+    },
+    "category": {
+        "cat1": "tools-materials-equipment",
+        "cat2": "building-equipment",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "stil-azin3",
+        "business_type": "marketplace",
+        "category": "building-equipment",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 10,
+        "price": 550000,
+        "rent": 0,
+        "token": "AY6OyYZ2"
+    },
+    "sc_time": 1727002102.8842278
+}

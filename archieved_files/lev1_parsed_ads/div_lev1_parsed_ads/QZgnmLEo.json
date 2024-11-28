@@ -34,16 +34,13 @@
             "section_name": "BUSINESS_SECTION",
             "widgets": [
                 {
-                    "widget_type": "EVENT_ROW",
+                    "widget_type": "LAZY_SECTION",
                     "data": {
-                        "title": "املاک بزرگ ۱۱۰پردیس",
-                        "action": {
-                            "type": "REAL_ESTATE_AGENCY_PAGE",
-                            "payload": {
-                                "@type": "type.googleapis.com/widgets.RealEstateAgencyPagePayload",
-                                "business_ref": "7218",
-                                "slug": "VHCy1cLu"
-                            }
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/QZgnmLEo/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "QZgnmLEo"
                         }
                     }
                 }
@@ -179,14 +176,14 @@
         }
     ],
     "seo": {
-        "title": "فروش پردیس فاز ۱۱ شمال شرق تهران ۸۷ متر دو خوابه در پردیس - ۲۴ شهریور ۱۴۰۳",
+        "title": "فروش پردیس فاز ۱۱ شمال شرق تهران ۸۷ متر دو خوابه در پردیس - ۱۷ مهر ۱۴۰۳",
         "description": "آگهی پردیس فاز ۱۱ شمال شرق تهران ۸۷ متر دو خوابه در دیوار پردیس",
         "web_info": {
             "title": "پردیس فاز ۱۱ شمال شرق تهران ۸۷ متر دو خوابه",
             "city_persian": "پردیس",
             "category_slug_persian": "فروش آپارتمان"
         },
-        "register_date": "27-8-2024"
+        "register_date": "27-9-2024"
     },
     "category": {
         "cat1": "real-estate",
@@ -195,8 +192,8 @@
         "city": "pardis-city"
     },
     "details": {
-        "business_ref": "7218",
-        "business_type": "real-estate-business",
+        "business_ref": "sSqWDpux_QGKSUgEt",
+        "business_type": "premium-panel",
         "category": "apartment-sell",
         "city": "pardis-city",
         "credit": 0,
@@ -205,5 +202,6 @@
         "price": 2150000128,
         "rent": 0,
         "token": "QZgnmLEo"
-    }
+    },
+    "sc_time": 1728474650.8939612
 }

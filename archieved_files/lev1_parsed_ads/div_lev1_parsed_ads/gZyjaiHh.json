@@ -1,0 +1,63 @@
+{
+    "sections": [
+        {
+            "section_name": "MAP",
+            "location": {
+                "exact_data": {
+                    "point": {
+                        "latitude": 35.727425,
+                        "longitude": 51.80058
+                    }
+                }
+            }
+        },
+        {
+            "section_name": "BUSINESS_SECTION",
+            "widgets": [
+                {
+                    "widget_type": "LAZY_SECTION",
+                    "data": {
+                        "rest_request_path": "/v8/premium-user/post-page/business-data/gZyjaiHh/lazy",
+                        "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+                        "request_data": {
+                            "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+                            "post_token": "gZyjaiHh"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "section_name": "LIST_DATA"
+        }
+    ],
+    "seo": {
+        "title": "پردیس فاز ۱۱ پروژه بتاجا واریز بروز سنددار در پردیس",
+        "description": "آگهی پردیس فاز ۱۱ پروژه بتاجا واریز بروز سنددار در دیوار پردیس",
+        "web_info": {
+            "title": "پردیس فاز ۱۱ پروژه بتاجا واریز بروز سنددار",
+            "city_persian": "پردیس",
+            "category_slug_persian": "پیش‌فروش ملک"
+        },
+        "register_date": "25-9-2024"
+    },
+    "category": {
+        "cat1": "real-estate",
+        "cat2": "real-estate-services",
+        "cat3": "presell",
+        "city": "pardis-city"
+    },
+    "details": {
+        "business_ref": "ftwZBntl_FWvrfmIC",
+        "business_type": "premium-panel",
+        "category": "presell",
+        "city": "pardis-city",
+        "credit": 0,
+        "district": "",
+        "image_count": 0,
+        "price": 0,
+        "rent": 0,
+        "token": "gZyjaiHh"
+    },
+    "sc_time": 1728472342.019797
+}

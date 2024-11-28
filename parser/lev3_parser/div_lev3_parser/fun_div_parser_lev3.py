@@ -65,7 +65,8 @@ def div_parser3(data):
             "jenskaff" : '',
             "cooler" : '',
             "heater" : '',
-            "tamin_hot_water" : ''
+            "tamin_hot_water" : '',
+            "expired_date" : ''
         }
 
 
